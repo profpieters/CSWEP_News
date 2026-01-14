@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSWEP News Archives | American Economic Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Filter row */
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .filter-select {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            min-width: 150px;
+            background: white;
+        }
+        .clear-filters {
+            background: none;
+            border: none;
+            color: #003366;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.9rem;
+        }
+        .clear-filters:hover {
+            color: #0055a5;
+        }
+
+        /* Articles nested under newsletters */
+        .newsletter-articles {
+            margin: 8px 0 5px 20px;
+            padding-left: 15px;
+            border-left: 2px solid #e0e0e0;
+        }
+        .newsletter-articles.collapsed {
+            display: none;
+        }
+        .article-entry {
+            padding: 6px 0;
+            font-size: 0.9rem;
+        }
+        .article-entry:not(:last-child) {
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .article-entry a {
+            color: #0056b3;
+            font-weight: 400;
+        }
+        .article-entry a:hover {
+            text-decoration: underline;
+        }
+        .article-author {
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .article-topic {
+            background: #e8f0f8;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            color: #003366;
+            margin-left: 8px;
+        }
+        .toggle-articles {
+            background: none;
+            border: none;
+            color: #003366;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 2px 6px;
+            margin-left: 10px;
+        }
+        .toggle-articles:hover {
+            text-decoration: underline;
+        }
+        .article-count-badge {
+            background: #e8f0f8;
+            color: #003366;
+            font-size: 0.75rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+        .no-results {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        /* Load more functionality */
+        .year-section.hidden-year {
+            display: none;
+        }
+        .load-more-container {
+            text-align: center;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        .load-more-btn {
+            background: #003366;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .load-more-btn:hover {
+            background: #0055a5;
+        }
+        .load-more-info {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="https://www.aeaweb.org" class="logo-text">American Economic Association</a>
+            </div>
+            <nav class="utility-nav">
+                <a href="https://www.aeaweb.org/membership">Membership</a>
+                <a href="https://www.aeaweb.org/about-aea">About AEA</a>
+                <a href="https://www.aeaweb.org/login">Log In</a>
+            </nav>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="https://www.aeaweb.org/journals">Journals</a></li>
+                <li><a href="https://www.aeaweb.org/conference">Annual Meeting</a></li>
+                <li><a href="https://www.aeaweb.org/resources/students/careers">Careers</a></li>
+                <li><a href="https://www.aeaweb.org/resources">Resources</a></li>
+                <li><a href="https://www.aeaweb.org/econlit">EconLit</a></li>
+                <li><a href="https://www.aeaweb.org/about-aea/committees">Committees</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-inner">
+            <a href="https://www.aeaweb.org">Home</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea">About the AEA</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees">AEA Committees</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep">CSWEP</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events">News and Events</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events/newsletters">Newsletters</a>
+            <span>&gt;</span>
+            Archives
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1 class="page-title">CSWEP News Archives</h1>
+
+        <p class="intro-text">
+            Browse the complete archive of CSWEP News from 1972-2025. Individual articles appear under each newsletter issue.
+            <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=594">Download the Excel index</a>.
+        </p>
+
+        <!-- Search and Filters -->
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search newsletters and articles...">
+            <div class="filter-row">
+                <select id="topic-filter" class="filter-select">
+                    <option value="">All Topics</option>
+                </select>
+                <select id="year-filter" class="filter-select">
+                    <option value="">All Years</option>
+                </select>
+                <button id="clear-filters" class="clear-filters">Clear filters</button>
+            </div>
+            <span class="search-stats">Showing <span id="visible-count">0</span> newsletters</span>
+        </div>
+
+            <div class="newsletter-list">
+                <!-- 2025 -->
+                <section class="year-section">
+                    <h2 class="year-heading">2025</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=23837" class="newsletter-link">Issue IV 2025</a>
+                        <span class="newsletter-focus">- Focus on Fertility</span>                        <span class="newsletter-editor">Co-Editor: Caitlin Myers</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=23379" class="newsletter-link">Issue III 2025</a>
+                        <span class="newsletter-focus">- Focus on Visibility and Voice in the Profession</span>                        <span class="newsletter-editor">Co-Editor: Olga Shurkov</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=22528" class="newsletter-link">Issue II 2025</a>
+                        <span class="newsletter-focus">- Focus on Women in Leadership</span>                        <span class="newsletter-editor">Co-Editor: Francisca Antman</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=22059" class="newsletter-link">Issue I 2025</a>
+                        <span class="newsletter-focus">- The 2024 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editor: Linda Tesar</span>
+                    </div>
+                </section>
+
+                <!-- 2024 -->
+                <section class="year-section">
+                    <h2 class="year-heading">2024</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=21767" class="newsletter-link">Issue IV 2024</a>
+                        <span class="newsletter-focus">- Focus on Journal Editors as Gatekeepers</span>                        <span class="newsletter-editor">Co-Editor: Rohan Williamson</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=21393" class="newsletter-link">Issue III 2024</a>
+                        <span class="newsletter-focus">- Post-Pandemic Job Market in Economics</span>                        <span class="newsletter-editor">Co-Editor: Orgul Ozturk</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=20893" class="newsletter-link">Issue II 2024</a>
+                        <span class="newsletter-focus">- Why Are Women Leaving?</span>                        <span class="newsletter-editor">Co-Editors: Ina Ganguli, Anna Paulson</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=20292" class="newsletter-link">Issue I 2024</a>
+                        <span class="newsletter-focus">- The 2023 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editors: Anusha Chari, Margaret Levenstein</span>
+                    </div>
+                </section>
+
+                <!-- 2023 -->
+                <section class="year-section">
+                    <h2 class="year-heading">2023</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=19848" class="newsletter-link">Issue IV 2023</a>
+                        <span class="newsletter-focus">- What the AEA is Doing About Sexual Harassment</span>                        <span class="newsletter-editor">Guest Editor: Donna Ginther</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=19347" class="newsletter-link">Issue III 2023</a>
+                        <span class="newsletter-focus">- The Changed Landscape of Abortion Access</span>                        <span class="newsletter-editor">Co-Editor: Yana van der Meulen Rodgers</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=18540" class="newsletter-link">Issue II 2023</a>
+                        <span class="newsletter-focus">- Focus on the Undergraduate Experience</span>                        <span class="newsletter-editor">Co-Editor: Marionnette Holmes</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=18271" class="newsletter-link">Issue I 2023</a>
+                        <span class="newsletter-focus">- The 2022 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editors: Anusha Chari, Margaret Levenstein</span>
+                    </div>
+                </section>
+
+                <!-- 2022 -->
+                <section class="year-section">
+                    <h2 class="year-heading">2022</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=17929" class="newsletter-link">Issue IV 2022</a>
+                        <span class="newsletter-focus">- Economics Seminar Dynamics Revisited</span>                        <span class="newsletter-editor">Co-Editor: Katherine Silz-Carson</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=17488" class="newsletter-link">Issue III 2022</a>
+                        <span class="newsletter-focus">- Navigating the Ph.D. Admissions Process</span>                        <span class="newsletter-editor">Co-Editor: Kasey Buckles</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=16549" class="newsletter-link">Issue II 2022</a>
+                        <span class="newsletter-focus">- A Guide for Non-Tenure Track Faculty</span>                        <span class="newsletter-editor">Co-Editors: Shreyasee Das, Seth Gitter</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=16197" class="newsletter-link">Issue I 2022</a>
+                        <span class="newsletter-focus">- The 2021 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editors: Anusha Chari, Margaret Levenstein</span>
+                    </div>
+                </section>
+
+                <!-- 2021 -->
+                <section class="year-section">
+                    <h2 class="year-heading">2021</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=15929" class="newsletter-link">Issue IV 2021</a>
+                        <span class="newsletter-focus">- Finding Funding for Your Research</span>                        <span class="newsletter-editor">Co-Editor: Jen Doleac</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=15374" class="newsletter-link">Issue III 2021</a>
+                        <span class="newsletter-focus">- The Status of Women in the Economics Profession Around the World</span>                        <span class="newsletter-editor">Co-Editor: Karen Pence</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=14468" class="newsletter-link">Issue II 2021</a>
+                        <span class="newsletter-focus">- Jobs for Economists in DC</span>                        <span class="newsletter-editor">Co-Editors: Judith Chevalier, Gray Kimbrough</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=13968" class="newsletter-link">Issue I 2021</a>
+                        <span class="newsletter-focus">- The 2020 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editors: Judith Chevalier, Margaret Levenstein</span>
+                    </div>
+                </section>
+
+                <!-- Load More Button -->
+                <div class="load-more-container" id="load-more-container">
+                    <button class="load-more-btn" id="load-more-btn">Load Earlier Years (1972-2020)</button>
+                    <div class="load-more-info">49 more years of archives</div>
+                </div>
+
+                <!-- 2020 -->
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2020</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=13540" class="newsletter-link">Issue IV 2020</a>
+                        <span class="newsletter-focus">- Ideas for Mitigating the Disparate Impact of COVID in Economics</span>                        <span class="newsletter-editor">Co-Editors: Jonathan Guryan, Petra Moser</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=13085" class="newsletter-link">Issue III 2020</a>
+                        <span class="newsletter-focus">- Advice for Job Seekers and Early Career Folks</span>                        <span class="newsletter-editor">Co-Editor: Sarah Jacobson</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=11887" class="newsletter-link">Issue II 2020</a>
+                        <span class="newsletter-focus">- Tips for Surviving and Thriving as an Academic Economist</span>                        <span class="newsletter-editor">Co-Editor: Karen Conway</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=11630" class="newsletter-link">Issue I 2020</a>
+                        <span class="newsletter-focus">- The 2019 Report on the Status of Women in the Economic Profession</span>                        <span class="newsletter-editor">Co-Editors: Judith Chevalier, Margaret Levenstein</span>
+                    </div>
+                </section>
+
+                <!-- 2019 -->
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2019</h2>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=11135" class="newsletter-link">Issue III 2019</a>
+                        <span class="newsletter-focus">- Academic Career Challenges and Opportunities</span>
+                        <span class="newsletter-editor">Co-Editor: Abigail Wozniak</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=10740" class="newsletter-link">Issue II 2019</a>
+                        <span class="newsletter-focus">- Advice for Job Seekers</span>
+                        <span class="newsletter-editor">Co-Editor: Shahina Amin</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=9317" class="newsletter-link">Issue I 2019</a>
+                        <span class="newsletter-focus">- Mentoring Underrepresented Minority Women in Economics</span>
+                        <span class="newsletter-editor">Co-Editor: Marie T. Mora</span>
+                    </div>
+                </section>
+
+                <!-- 2018 and earlier - abbreviated for space, keeping structure -->
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2018</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=8644" class="newsletter-link">Issue III 2018</a><span class="newsletter-focus">- Proactive Efforts to Increase Diversity and Inclusion</span><span class="newsletter-editor">Co-Editor: Elizabeth Klee</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=8051" class="newsletter-link">Issue II 2018</a><span class="newsletter-focus">- Working With the Media</span><span class="newsletter-editor">Co-Editor: Catalina Amuedo-Dorantes</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=6769" class="newsletter-link">Issue I 2018</a><span class="newsletter-focus">- Dealing with Sexual Harassment</span><span class="newsletter-editor">Co-Editor: Jennifer Bennett Shinall</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2017</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=6373" class="newsletter-link">Issue III 2017</a><span class="newsletter-focus">- Working with a Research Group and Co-authors</span><span class="newsletter-editor">Co-Editor: Ragan Petrie</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=5524" class="newsletter-link">Issue II 2017</a><span class="newsletter-focus">- Recruiting & Mentoring Diverse Economists</span><span class="newsletter-editor">Co-Editor: Amanda Bayer</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=4512" class="newsletter-link">Issue I 2017</a><span class="newsletter-focus">- Managing Your Service and Administrative Workload at Mid-Career</span><span class="newsletter-editor">Co-Editor: Terra McKinnish</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2016</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=2824" class="newsletter-link">Issue III 2016</a><span class="newsletter-focus">- Challenges, Opportunities and Strategies for Female Faculty</span><span class="newsletter-editor">Co-Editor: Anne Winkler</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=2327" class="newsletter-link">Issue II 2016</a><span class="newsletter-focus">- Managing a Job Search as a Couple</span><span class="newsletter-editor">Co-Editor: Shelly Lundberg</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=1914" class="newsletter-link">Issue I 2016</a><span class="newsletter-focus">- Economists in the Public Sector</span><span class="newsletter-editor">Co-Editor: Marjorie B. McElroy</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2015</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=2671" class="newsletter-link">Issue III 2015</a><span class="newsletter-focus">- Ethical Issues in Economics Research, Part II</span><span class="newsletter-editor">Co-Editors: Amalia Miller, Ragan Petrie</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=1158" class="newsletter-link">Issue II 2015</a><span class="newsletter-focus">- Ethical Issues in Economics Research, Part I</span><span class="newsletter-editor">Co-Editors: Amalia Miller, Ragan Petrie</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=520" class="newsletter-link">Issue I 2015</a><span class="newsletter-focus">- Associations of Women Economists Around the Globe</span><span class="newsletter-editor">Co-Editor: Madeline Zavodny</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2014</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=506" class="newsletter-link">Fall 2014</a><span class="newsletter-focus">- Navigating the Job Market 2.0</span><span class="newsletter-editor">Co-Editor: Cecilia Conrad</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=631" class="newsletter-link">Spring/Summer 2014</a><span class="newsletter-focus">- Getting into and Finishing a PhD Program</span><span class="newsletter-editor">Co-Editor: Serena Ng</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=588" class="newsletter-link">Winter 2014</a><span class="newsletter-focus">- Being Research Productive at Non-Research Intensive Institutions</span><span class="newsletter-editor">Co-Editor: Anne Winkler</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2013</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=505" class="newsletter-link">Fall 2013</a><span class="newsletter-focus">- A Celebration of the Life of Anna Jacobson Schwartz</span><span class="newsletter-editor">Co-Editor: Marjorie McElroy</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=570" class="newsletter-link">Spring/Summer 2013</a><span class="newsletter-focus">- Where are the Women Economics Majors?</span><span class="newsletter-editor">Co-Editor: Cecilia Conrad</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=587" class="newsletter-link">Winter 2013</a><span class="newsletter-focus">- Navigating the Tenure Process</span><span class="newsletter-editor">Co-Editor: Petra Todd</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2012</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=504" class="newsletter-link">Fall 2012</a><span class="newsletter-focus">- The International Job Market for Economists</span><span class="newsletter-editor">Co-Editor: Kevin Lang</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=569" class="newsletter-link">Spring/Summer 2012</a><span class="newsletter-focus">- Interdisciplinary Frontiers in Economics</span><span class="newsletter-editor">Co-Editor: Shelley White-Means</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=586" class="newsletter-link">Winter 2012</a><span class="newsletter-focus">- Using Social Media in Economics</span><span class="newsletter-editor">Co-Editor: Jennifer Imazeki</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2011</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=503" class="newsletter-link">Fall 2011</a><span class="newsletter-focus">- Inspiring Women in Policy</span><span class="newsletter-editor">Co-Editor: Linda Goldberg</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=568" class="newsletter-link">Spring/Summer 2011</a><span class="newsletter-focus">- How to Get Published in an Economics Journal</span><span class="newsletter-editor">Co-Editor: Susan Averett</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=585" class="newsletter-link">Winter 2011</a><span class="newsletter-focus">- What's Your Research Agenda?</span><span class="newsletter-editor">Co-Editor: Rohini Pande</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2010</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=502" class="newsletter-link">Fall 2010</a><span class="newsletter-focus">- Academic Women and Shrinking State Budgets</span><span class="newsletter-editor">Co-Editor: Ron Oaxaca</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=567" class="newsletter-link">Spring/Summer 2010</a><span class="newsletter-focus">- Boundary Conditions</span><span class="newsletter-editor">Co-Editor: Lynne Lewis</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=584" class="newsletter-link">Winter 2010</a><span class="newsletter-focus">- On Becoming a Public Economist</span><span class="newsletter-editor">Co-Editor: Amy Schwartz</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2009</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=501" class="newsletter-link">Fall 2009</a><span class="newsletter-focus">- Navigating the Job Market as Dual Career Economists</span><span class="newsletter-editor">Co-Editor: Julie Hotchkiss</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=566" class="newsletter-link">Spring/Summer 2009</a><span class="newsletter-focus">- Harassment, Discrimination and Action</span><span class="newsletter-editor">Co-Editor: Martha Olney</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=583" class="newsletter-link">Winter 2009</a><span class="newsletter-focus">- Managing Your Career Post-Tenure</span><span class="newsletter-editor">Co-Editor: Fiona Scott-Morton</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2008</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=500" class="newsletter-link">Fall 2008</a><span class="newsletter-focus">- Academic Leadership</span><span class="newsletter-editor">Co-Editor: Linda Bell</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=565" class="newsletter-link">Spring/Summer 2008</a><span class="newsletter-focus">- Alternative Career Paths in Economics</span><span class="newsletter-editor">Co-Editor: Trish Mosser</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=582" class="newsletter-link">Winter 2008</a><span class="newsletter-focus">- On Being the Boss</span><span class="newsletter-editor">Co-Editor: Richard Startz</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2007</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=499" class="newsletter-link">Fall 2007</a><span class="newsletter-focus">- Navigating the Job Market</span><span class="newsletter-editor">Co-Editor: Anna Paulson</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=563" class="newsletter-link">Spring/Summer 2007</a><span class="newsletter-focus">- Work and Family in Academia: Striking the Balance</span><span class="newsletter-editor">Co-Editor: Donna Ginther</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=581" class="newsletter-link">Winter 2007</a><span class="newsletter-focus">- Difficult Discussions: How to Approach Conversations with your Chair or Dean</span><span class="newsletter-editor">Co-Editor: Nancy Rose</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2006</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=498" class="newsletter-link">Fall 2006</a><span class="newsletter-focus">- Where the Pipeline Begins</span><span class="newsletter-editor">Co-Editor: Gail Hoyt</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=562" class="newsletter-link">Spring/Summer 2006</a><span class="newsletter-focus">- Symposium on Research Careers Outside of Academia</span><span class="newsletter-editor">Co-Editor: Katherine Abraham</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=580" class="newsletter-link">Winter 2006</a><span class="newsletter-focus">- Teaching Economics in Different Environments</span><span class="newsletter-editor">Co-Editor: Ann Owen</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2005</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=518" class="newsletter-link">Fall 2005</a><span class="newsletter-focus">- Lecturers, Adjuncts, Instructors: Life on a Track Different from the Tenure Track</span><span class="newsletter-editor">Co-Editor: Lori Kletzer</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=557" class="newsletter-link">Spring/Summer 2005</a><span class="newsletter-focus">- Academics Outside the Academy</span><span class="newsletter-editor">Co-Editor: Sharon Oster</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=579" class="newsletter-link">Winter 2005</a><span class="newsletter-focus">- Women Academic Economists: Early and Late Career Issues</span><span class="newsletter-editor">Co-Editor: Daniel Hamermesh</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2004</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=517" class="newsletter-link">Fall 2004</a><span class="newsletter-focus">- Women in Academe, Government and Business</span><span class="newsletter-editor">Co-Editor: Catherine L. Mann</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=556" class="newsletter-link">Spring/Summer 2004</a><span class="newsletter-focus">- Mentoring</span><span class="newsletter-editor">Co-Editor: Lisa Barrow</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=589" class="newsletter-link">Winter 2004</a><span class="newsletter-focus">- Women & Academics</span><span class="newsletter-editor">Co-Editor: Judith Chevalier</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2003</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=516" class="newsletter-link">Fall 2003</a><span class="newsletter-focus">- Responding to Discrimination in the Academy</span><span class="newsletter-editor">Co-Editor: Janet Currie</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=590" class="newsletter-link">Spring/Summer 2003</a><span class="newsletter-focus">- Professional Advancement</span><span class="newsletter-editor">Co-Editor: Claudia Goldin</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=578" class="newsletter-link">Winter 2003</a><span class="newsletter-focus">- Academic Advice</span><span class="newsletter-editor">Co-Editor: Rachel Croson</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2002</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=514" class="newsletter-link">Fall 2002</a><span class="newsletter-focus">- Mentoring</span><span class="newsletter-editor">Co-Editor: Rachel Willis</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=549" class="newsletter-link">Spring 2002</a><span class="newsletter-focus">- Think Tanks, Funding Sources</span><span class="newsletter-editor">Co-Editor: Caren Grown</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=574" class="newsletter-link">Winter 2002</a><span class="newsletter-focus">- The Status of Women</span><span class="newsletter-editor">Co-Editor: Robert Pollack</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2001</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=602" class="newsletter-link">Fall 2001</a><span class="newsletter-focus">- Women's Organizations in Economics and Related Fields</span><span class="newsletter-editor">Co-Editor: KimMarie McGoldrick</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=627" class="newsletter-link">Spring/Summer 2001</a><span class="newsletter-focus">- Reflections from Mentors and Balancing Work and Family</span><span class="newsletter-editor">Co-Editor: Helen Popper</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=650" class="newsletter-link">Winter 2001</a><span class="newsletter-focus">- Career Paths of Women Entering the Economics Profession During the 1970s</span><span class="newsletter-editor">Co-Editor: Andrea H. Beller</span></div>
+                </section>
+
+                <section class="year-section hidden-year">
+                    <h2 class="year-heading">2000</h2>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=603" class="newsletter-link">Fall 2000</a><span class="newsletter-focus">- Panel on the Research Climate in Economics Institutes</span><span class="newsletter-editor">Co-Editor: Mary E. Deily</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=628" class="newsletter-link">Spring/Summer 2000</a><span class="newsletter-focus">- Special Interview Articles</span><span class="newsletter-editor">Co-Editor: Barbara Fraumeni</span></div>
+                    <div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=938" class="newsletter-link">Winter 2000</a><span class="newsletter-focus">- Economics and Law</span><span class="newsletter-editor">Co-Editor: Lisa Lynch</span></div>
+                </section>
+
+                <section class="year-section hidden-year"><h2 class="year-heading">1999</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=948" class="newsletter-link">Fall 1999</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=942" class="newsletter-link">Spring 1999</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=939" class="newsletter-link">Winter 1999</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1998</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=513" class="newsletter-link">Fall 1998</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=944" class="newsletter-link">Spring/Summer 1998</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=940" class="newsletter-link">Winter 1998</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1997</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=13697" class="newsletter-link">Fall 1997</a><span class="newsletter-focus">- Special Commemorative Issue: CSWEP's 25 Years</span><span class="newsletter-editor">Co-Editor: Kenneth Small</span></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=626" class="newsletter-link">Spring 1997</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=649" class="newsletter-link">Winter 1997</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1996</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=601" class="newsletter-link">Fall 1996</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=943" class="newsletter-link">Spring 1996</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=941" class="newsletter-link">Winter 1996</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=951" class="newsletter-link">Special Reprint 1996</a><span class="newsletter-focus">- Preparing for the Job Market</span><span class="newsletter-editor">Co-Editor: Marianne Ferber</span></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1995</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=600" class="newsletter-link">Fall 1995</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=552" class="newsletter-link">Spring 1995</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=577" class="newsletter-link">Winter 1995</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1994</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=511" class="newsletter-link">Fall 1994</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625" class="newsletter-link">Spring 1994</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=576" class="newsletter-link">Winter 1994</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1993</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=765" class="newsletter-link">Fall 1993</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=629" class="newsletter-link">Summer 1993</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=648" class="newsletter-link">Winter 1993</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1992</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=599" class="newsletter-link">Fall 1992</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=624" class="newsletter-link">Spring 1992</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=647" class="newsletter-link">Winter 1992</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1991</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=510" class="newsletter-link">Fall 1991</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=623" class="newsletter-link">Spring 1991</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=646" class="newsletter-link">Winter 1991</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1990</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509" class="newsletter-link">Fall 1990</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=622" class="newsletter-link">Spring 1990</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=645" class="newsletter-link">Winter 1990</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=952" class="newsletter-link">Reprint Issue No 1 1990</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1989</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=598" class="newsletter-link">Fall 1989</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=621" class="newsletter-link">Spring 1989</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=644" class="newsletter-link">Winter 1989</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1988</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597" class="newsletter-link">Fall 1988</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=620" class="newsletter-link">Spring 1988</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=575" class="newsletter-link">Winter 1988</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1987</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=508" class="newsletter-link">Fall 1987</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=550" class="newsletter-link">Spring/Summer 1987</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1986</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507" class="newsletter-link">Fall 1986</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=619" class="newsletter-link">Spring 1986</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=573" class="newsletter-link">Winter 1986</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1985</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=559" class="newsletter-link">Summer 1985</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=572" class="newsletter-link">Winter 1985</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1984</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=497" class="newsletter-link">Fall 1984</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=548" class="newsletter-link">Spring 1984</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=571" class="newsletter-link">Winter 1984</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1983</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=515" class="newsletter-link">Fall 1983</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=551" class="newsletter-link">Spring 1983</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1982</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=496" class="newsletter-link">Fall 1982</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=555" class="newsletter-link">Spring/Summer 1982</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=561" class="newsletter-link">Winter 1982</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1981</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=495" class="newsletter-link">Fall 1981</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=560" class="newsletter-link">Winter 1981</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1980</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=494" class="newsletter-link">Fall 1980</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=531" class="newsletter-link">March 1980</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1979</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=543" class="newsletter-link">November 1979</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=558" class="newsletter-link">Summer 1979</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=530" class="newsletter-link">March 1979</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1978</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=542" class="newsletter-link">November 1978</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=527" class="newsletter-link">June 1978</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=529" class="newsletter-link">March 1978</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1977</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=546" class="newsletter-link">October 1977</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=526" class="newsletter-link">June 1977</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=528" class="newsletter-link">March 1977</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1976</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=541" class="newsletter-link">November 1976</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=491" class="newsletter-link">August 1976</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=490" class="newsletter-link">April 1976</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=524" class="newsletter-link">January 1976</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1975</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=545" class="newsletter-link">October 1975</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=540" class="newsletter-link">May 1975</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=519" class="newsletter-link">February 1975</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1974</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=945" class="newsletter-link">October 1974</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=525" class="newsletter-link">July 1974</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=532" class="newsletter-link">March 1974</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=523" class="newsletter-link">January 1974</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1973</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=493" class="newsletter-link">December 1973</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=547" class="newsletter-link">September 1973</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=946" class="newsletter-link">May 1973</a></div><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=947" class="newsletter-link">March 1973</a></div></section>
+                <section class="year-section hidden-year"><h2 class="year-heading">1972</h2><div class="newsletter-item"><a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=492" class="newsletter-link">December 1972</a></div></section>
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-nav">
+                <div class="footer-section">
+                    <h4>About AEA</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/about-aea">About</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees">Committees</a></li>
+                        <li><a href="https://www.aeaweb.org/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/journals">Journals</a></li>
+                        <li><a href="https://www.aeaweb.org/econlit">EconLit</a></li>
+                        <li><a href="https://www.aeaweb.org/resources/students/careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CSWEP</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep">About CSWEP</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events">News & Events</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep/programs">Programs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 American Economic Association. All rights reserved.</p>
+                <p>This is a local archive. Visit <a href="https://www.aeaweb.org">aeaweb.org</a> for the official site.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let articlesData = null;
+        let articlesByIssue = {};
+
+        // Normalize issue name for matching
+        function normalizeIssue(issue) {
+            return issue.toLowerCase()
+                .replace(/\s+/g, ' ')
+                .replace('spring/summer', 'spring')
+                .replace('springsummer', 'spring')
+                .trim();
+        }
+
+        // Group articles by issue
+        function groupArticlesByIssue() {
+            articlesByIssue = {};
+            if (!articlesData) return;
+            articlesData.articles.forEach(article => {
+                const key = normalizeIssue(article.issue);
+                if (!articlesByIssue[key]) articlesByIssue[key] = [];
+                articlesByIssue[key].push(article);
+            });
+        }
+
+        // Build article URL
+        function buildUrl(a) {
+            if (!a.url) return '#';
+            if (a.url.startsWith('http')) return a.url;
+            if (a.url.startsWith('/')) return 'https://www.aeaweb.org' + a.url;
+            return '#';
+        }
+
+        // Inject articles under each newsletter
+        function injectArticles() {
+            document.querySelectorAll('.newsletter-item').forEach(item => {
+                // Remove existing article sections
+                const existing = item.querySelector('.newsletter-articles');
+                if (existing) existing.remove();
+
+                // Get newsletter issue text
+                const linkEl = item.querySelector('.newsletter-link');
+                if (!linkEl) return;
+                const issueText = linkEl.textContent.trim();
+                const key = normalizeIssue(issueText);
+
+                // Find matching articles
+                const articles = articlesByIssue[key] || [];
+                if (articles.length === 0) return;
+
+                // Create article container
+                const container = document.createElement('div');
+                container.className = 'newsletter-articles';
+
+                articles.forEach(a => {
+                    const entry = document.createElement('div');
+                    entry.className = 'article-entry';
+                    // Store topics array as JSON for filtering
+                    entry.dataset.topics = JSON.stringify(a.topics || []);
+                    entry.dataset.title = a.title.toLowerCase();
+                    entry.dataset.author = (a.author || '').toLowerCase();
+
+                    let html = `<a href="${buildUrl(a)}" target="_blank">${a.title}</a>`;
+                    if (a.author) html += ` <span class="article-author">— ${a.author}</span>`;
+                    // Display individual topic badges
+                    if (a.topics && a.topics.length > 0) {
+                        a.topics.forEach(t => {
+                            html += `<span class="article-topic">${t}</span>`;
+                        });
+                    }
+                    entry.innerHTML = html;
+                    container.appendChild(entry);
+                });
+
+                // Add count badge to newsletter item
+                const badge = document.createElement('span');
+                badge.className = 'article-count-badge';
+                badge.textContent = `${articles.length} article${articles.length > 1 ? 's' : ''}`;
+
+                // Insert after existing badges/spans
+                const editorSpan = item.querySelector('.newsletter-editor');
+                if (editorSpan) {
+                    editorSpan.after(badge);
+                } else {
+                    item.appendChild(badge);
+                }
+
+                item.appendChild(container);
+            });
+        }
+
+        // Initialize filters
+        function initFilters() {
+            const topicSelect = document.getElementById('topic-filter');
+            const yearSelect = document.getElementById('year-filter');
+
+            if (articlesData && articlesData.filters) {
+                articlesData.filters.topics.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t;
+                    opt.textContent = t;
+                    topicSelect.appendChild(opt);
+                });
+            }
+
+            // Years from 2025 down to 1972
+            for (let y = 2025; y >= 1972; y--) {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y;
+                yearSelect.appendChild(opt);
+            }
+        }
+
+        let allYearsLoaded = false; // Track if user clicked "Load more"
+
+        // Filter newsletters and articles
+        function applyFilters() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+            const topicFilter = document.getElementById('topic-filter').value;
+            const yearFilter = document.getElementById('year-filter').value;
+            const hasActiveFilter = searchTerm || topicFilter || yearFilter;
+
+            const newsletters = document.querySelectorAll('.newsletter-item');
+            const yearSections = document.querySelectorAll('.year-section');
+            let visibleCount = 0;
+
+            newsletters.forEach(item => {
+                const yearSection = item.closest('.year-section');
+                const newsletterText = item.textContent.toLowerCase();
+                const articles = item.querySelectorAll('.article-entry');
+
+                // Check if newsletter matches year filter
+                const yearHeading = yearSection?.querySelector('.year-heading')?.textContent;
+                const matchesYear = !yearFilter || yearHeading === yearFilter;
+
+                // Check newsletter text matches search
+                let newsletterMatchesSearch = !searchTerm || newsletterText.includes(searchTerm);
+
+                // Check if any article matches filters
+                let hasMatchingArticle = false;
+                articles.forEach(entry => {
+                    const title = entry.dataset.title || '';
+                    const author = entry.dataset.author || '';
+                    let topics = [];
+                    try {
+                        topics = JSON.parse(entry.dataset.topics || '[]');
+                    } catch (e) {
+                        topics = [];
+                    }
+
+                    const matchesTopic = !topicFilter || topics.includes(topicFilter);
+                    const matchesSearch = !searchTerm || title.includes(searchTerm) || author.includes(searchTerm);
+
+                    if (matchesTopic && matchesSearch) {
+                        entry.style.display = '';
+                        hasMatchingArticle = true;
+                    } else {
+                        entry.style.display = 'none';
+                    }
+                });
+
+                // Determine if newsletter should show
+                let showNewsletter = false;
+                if (hasActiveFilter) {
+                    // Topic filter requires matching articles
+                    // Search can match newsletter text OR articles
+                    if (topicFilter) {
+                        // Must have article matching topic (and search if present)
+                        showNewsletter = matchesYear && hasMatchingArticle;
+                    } else if (searchTerm) {
+                        // Search matches newsletter text or has matching articles
+                        showNewsletter = matchesYear && (newsletterMatchesSearch || hasMatchingArticle);
+                    } else {
+                        // Year filter only
+                        showNewsletter = matchesYear;
+                    }
+                } else {
+                    // No filter: show all
+                    showNewsletter = true;
+                }
+
+                item.style.display = showNewsletter ? '' : 'none';
+
+                // Show/hide article container
+                const articleContainer = item.querySelector('.newsletter-articles');
+                if (articleContainer) {
+                    articleContainer.style.display = (topicFilter && !hasMatchingArticle) ? 'none' : '';
+                }
+
+                if (showNewsletter) visibleCount++;
+            });
+
+            // Show/hide year sections
+            yearSections.forEach(section => {
+                const isOriginallyHidden = section.dataset.hiddenYear === 'true';
+                const hasVisibleNewsletters = Array.from(section.querySelectorAll('.newsletter-item'))
+                    .some(item => item.style.display !== 'none');
+
+                if (hasActiveFilter) {
+                    // With filter: show section if it has visible newsletters
+                    section.classList.remove('hidden-year');
+                    section.style.display = hasVisibleNewsletters ? '' : 'none';
+                } else {
+                    // No filter: respect original hidden state
+                    if (isOriginallyHidden && !allYearsLoaded) {
+                        section.classList.add('hidden-year');
+                        section.style.display = '';
+                    } else {
+                        section.classList.remove('hidden-year');
+                        section.style.display = hasVisibleNewsletters ? '' : 'none';
+                    }
+                }
+            });
+
+            // Show/hide "Load more" button
+            const loadMoreContainer = document.getElementById('load-more-container');
+            loadMoreContainer.style.display = (allYearsLoaded || hasActiveFilter) ? 'none' : '';
+
+            document.getElementById('visible-count').textContent = visibleCount;
+        }
+
+        // Load articles and initialize
+        async function init() {
+            try {
+                const response = await fetch('articles.json?v=' + Date.now());
+                articlesData = await response.json();
+                groupArticlesByIssue();
+                injectArticles();
+                initFilters();
+            } catch (e) {
+                console.error('Error loading articles:', e);
+                initFilters();
+            }
+
+            // Mark originally hidden sections with data attribute
+            document.querySelectorAll('.year-section.hidden-year').forEach(section => {
+                section.dataset.hiddenYear = 'true';
+            });
+
+            // Set initial count (only visible sections)
+            const visibleNewsletters = document.querySelectorAll('.year-section:not(.hidden-year) .newsletter-item');
+            document.getElementById('visible-count').textContent = visibleNewsletters.length;
+
+            // Event listeners
+            document.getElementById('search-input').addEventListener('input', applyFilters);
+            document.getElementById('topic-filter').addEventListener('change', applyFilters);
+            document.getElementById('year-filter').addEventListener('change', applyFilters);
+            document.getElementById('clear-filters').addEventListener('click', () => {
+                document.getElementById('search-input').value = '';
+                document.getElementById('topic-filter').value = '';
+                document.getElementById('year-filter').value = '';
+                applyFilters();
+            });
+
+            // Load more button
+            document.getElementById('load-more-btn').addEventListener('click', () => {
+                allYearsLoaded = true;
+                document.querySelectorAll('.year-section.hidden-year').forEach(section => {
+                    section.classList.remove('hidden-year');
+                });
+                document.getElementById('load-more-container').style.display = 'none';
+                applyFilters(); // Reapply filters to update count
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+/* AEA-style CSS for CSWEP Newsletter Archives */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: #fff;
+    padding: 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-text:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.utility-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.utility-nav a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.utility-nav a:hover {
+    color: #ccc;
+}
+
+/* Main Navigation */
+.main-nav {
+    background-color: #004080;
+    border-top: 1px solid #002244;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-nav a:hover {
+    background-color: #003366;
+    text-decoration: none;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.breadcrumb a {
+    color: #666;
+}
+
+.breadcrumb span {
+    color: #999;
+    margin: 0 5px;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #003366;
+}
+
+.intro-text {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #003366;
+}
+
+.intro-text a {
+    font-weight: 500;
+}
+
+/* Search Container */
+.search-container {
+    background: #f5f5f5;
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #003366;
+    box-shadow: 0 0 0 2px rgba(0, 51, 102, 0.1);
+}
+
+.search-stats {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Newsletter Listing */
+.newsletter-list {
+    margin-top: 20px;
+}
+
+.year-section {
+    margin-bottom: 30px;
+}
+
+.year-heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.newsletter-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.newsletter-item:last-child {
+    border-bottom: none;
+}
+
+.newsletter-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #003366;
+}
+
+.newsletter-link:hover {
+    color: #0056b3;
+}
+
+.newsletter-focus {
+    font-style: italic;
+    color: #666;
+    margin-left: 5px;
+}
+
+.newsletter-editor {
+    display: block;
+    font-size: 13px;
+    color: #777;
+    margin-top: 3px;
+}
+
+/* Footer */
+.footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #ccc;
+    font-size: 13px;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #004080;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-bottom a {
+    color: #ccc;
+}
+
+/* Local PDF indicator */
+.local-pdf {
+    display: inline-block;
+    font-size: 11px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-top {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main-nav ul {
+        flex-wrap: wrap;
+    }
+
+    .main-nav a {
+        padding: 10px 15px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .page-title {
+        font-size: 26px;
+    }
+}

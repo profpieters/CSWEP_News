@@ -1,0 +1,6 @@
+# Temp files
+tmpclaude-*
+nul
+
+# Claude config
+.claude/
