@@ -72,6 +72,19 @@ Articles automatically inherit their issue's focus topic. The `topic` field is f
 - **Topic filter**: Dropdown with 47 individual topic categories; articles with multiple topics appear under each matching filter
 - **Year filter**: Dropdown for years 1972-2025
 - **Article badges**: Shows article count per newsletter issue; individual topic badges on each article
+- **Citations**: `[Cite]` button on each issue and article; click to reveal formatted citation with copy button
+
+### Citation Formats
+
+Issue citation:
+```
+CSWEP News, Issue IV 2025: Focus on Fertility. American Economic Association. [URL]
+```
+
+Article citation:
+```
+Author Name. "Article Title." CSWEP News, Issue IV 2025. American Economic Association. [URL]
+```
 
 ## Topic System
 

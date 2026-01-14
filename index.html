@@ -93,6 +93,52 @@
             padding: 2rem;
             color: #666;
         }
+        .cite-btn {
+            background: none;
+            border: none;
+            color: #999;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 2px 4px;
+            margin-left: 6px;
+        }
+        .cite-btn:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+        .citation-box {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin: 8px 0 4px 0;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .citation-text {
+            flex: 1;
+            color: #333;
+            font-family: Georgia, serif;
+            user-select: all;
+        }
+        .citation-copy-btn {
+            background: #003366;
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+        .citation-copy-btn:hover {
+            background: #0055a5;
+        }
+        .citation-copy-btn.copied {
+            background: #28a745;
+        }
         /* Load more functionality */
         .year-section.hidden-year {
             display: none;
@@ -575,6 +621,139 @@
             return '#';
         }
 
+        // Build citation text
+        function buildCitation(issueText, focusTopic, url) {
+            let citation = `CSWEP News, ${issueText}`;
+            if (focusTopic) {
+                citation += `: ${focusTopic}`;
+            }
+            citation += `. American Economic Association. ${url}`;
+            return citation;
+        }
+
+        // Toggle article citation display
+        function toggleArticleCitation(entry, article) {
+            const existing = entry.querySelector('.citation-box');
+            if (existing) {
+                existing.remove();
+                return;
+            }
+
+            // Build article citation: Author. "Title." CSWEP News, Issue. AEA. URL
+            let citation = '';
+            if (article.author) {
+                citation += `${article.author}. `;
+            }
+            citation += `"${article.title}." CSWEP News, ${article.issue}. American Economic Association. ${buildUrl(article)}`;
+
+            const box = document.createElement('div');
+            box.className = 'citation-box';
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'citation-text';
+            textSpan.textContent = citation;
+
+            const copyBtn = document.createElement('button');
+            copyBtn.className = 'citation-copy-btn';
+            copyBtn.textContent = 'Copy';
+            copyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navigator.clipboard.writeText(citation).then(() => {
+                    copyBtn.textContent = 'Copied!';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy';
+                        copyBtn.classList.remove('copied');
+                    }, 1500);
+                });
+            });
+
+            box.appendChild(textSpan);
+            box.appendChild(copyBtn);
+            entry.appendChild(box);
+        }
+
+        // Toggle citation display
+        function toggleCitation(item, issueText, focusTopic, url) {
+            const existing = item.querySelector('.citation-box');
+            if (existing) {
+                existing.remove();
+                return;
+            }
+
+            const citation = buildCitation(issueText, focusTopic, url);
+
+            const box = document.createElement('div');
+            box.className = 'citation-box';
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'citation-text';
+            textSpan.textContent = citation;
+
+            const copyBtn = document.createElement('button');
+            copyBtn.className = 'citation-copy-btn';
+            copyBtn.textContent = 'Copy';
+            copyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navigator.clipboard.writeText(citation).then(() => {
+                    copyBtn.textContent = 'Copied!';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy';
+                        copyBtn.classList.remove('copied');
+                    }, 1500);
+                });
+            });
+
+            box.appendChild(textSpan);
+            box.appendChild(copyBtn);
+
+            // Insert before articles section if present, otherwise at end
+            const articlesSection = item.querySelector('.newsletter-articles');
+            if (articlesSection) {
+                articlesSection.before(box);
+            } else {
+                item.appendChild(box);
+            }
+        }
+
+        // Add cite buttons to newsletter items
+        function addCiteButtons() {
+            document.querySelectorAll('.newsletter-item').forEach(item => {
+                // Check for issue cite button (not inside articles section)
+                const existingBtn = item.querySelector(':scope > .cite-btn');
+                if (existingBtn) return;
+
+                const linkEl = item.querySelector('.newsletter-link');
+                if (!linkEl) return;
+
+                const issueText = linkEl.textContent.trim();
+                const url = linkEl.href;
+
+                const focusEl = item.querySelector('.newsletter-focus');
+                let focusTopic = '';
+                if (focusEl) {
+                    focusTopic = focusEl.textContent.replace(/^-\s*/, '').replace(/^Focus on\s*/i, '').trim();
+                }
+
+                const btn = document.createElement('button');
+                btn.className = 'cite-btn';
+                btn.textContent = '[Cite]';
+                btn.title = 'Show citation';
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    toggleCitation(item, issueText, focusTopic, url);
+                });
+
+                // Insert after focus title if present, otherwise after link
+                if (focusEl) {
+                    focusEl.after(btn);
+                } else {
+                    linkEl.after(btn);
+                }
+            });
+        }
+
         // Inject articles under each newsletter
         function injectArticles() {
             document.querySelectorAll('.newsletter-item').forEach(item => {
@@ -613,6 +792,18 @@
                         });
                     }
                     entry.innerHTML = html;
+
+                    // Add cite button for article
+                    const citeBtn = document.createElement('button');
+                    citeBtn.className = 'cite-btn';
+                    citeBtn.textContent = '[Cite]';
+                    citeBtn.title = 'Show citation';
+                    citeBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        toggleArticleCitation(entry, a);
+                    });
+                    entry.appendChild(citeBtn);
+
                     container.appendChild(entry);
                 });
 
@@ -771,9 +962,11 @@
                 articlesData = await response.json();
                 groupArticlesByIssue();
                 injectArticles();
+                addCiteButtons();
                 initFilters();
             } catch (e) {
                 console.error('Error loading articles:', e);
+                addCiteButtons();
                 initFilters();
             }
 
