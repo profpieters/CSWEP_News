@@ -12,11 +12,11 @@ This is a static website serving as a local archive for CSWEP (Committee on the 
 
 - **cswep_news_master.xlsx**: Single source of truth with two sheets:
   - `Issues` (166 rows): issue name, year, focus_topic, editor, url
-  - `Articles` (477 rows): title, author, issue, year, topics, url, source
+  - `Articles` (595 rows): title, author, issue, year, topics, url, source
 - **build_site.py**: Build script that reads the master spreadsheet and generates both `index.html` and `articles.json`
 - **template.html**: HTML template with `<!-- NEWSLETTER_CONTENT -->`, `{{MIN_YEAR}}`, and `{{MAX_YEAR}}` placeholders
 - **index.html**: Generated output -- do not hand-edit newsletter data (regenerate with build script)
-- **articles.json**: Generated article index data (477 articles, 1996-2025) with title, author, issue, year, topics array, and URL
+- **articles.json**: Generated article index data (595 articles, 1983-2025) with title, author, issue, year, topics array, and URL
 - **styles.css**: AEA-branded styling with responsive design
 
 ## Development
@@ -76,7 +76,7 @@ Add new rows to the `Articles` sheet in `cswep_news_master.xlsx`:
 ## Features
 
 - **Search**: Filters newsletters and articles by text
-- **Topic filter**: Dropdown with 47 individual topic categories; articles with multiple topics appear under each matching filter
+- **Topic filter**: Dropdown with 112 individual topic categories; articles with multiple topics appear under each matching filter
 - **Year filter**: Dropdown for years 1972-2025
 - **Article badges**: Shows article count per newsletter issue; individual topic badges on each article
 - **Citations**: `[Cite]` button on each issue and article; click to reveal formatted citation with copy button

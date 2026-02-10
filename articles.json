@@ -2316,7 +2316,7 @@
     {
       "title": "An Undergraduate Major's Perspective",
       "author": "Maria Boya Zhu",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
@@ -2366,11 +2366,22 @@
     {
       "title": "Attracting More Women and Minorities into Economics",
       "author": "Susan Feigenbaum",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
         "Status of Women in the Economics Profession"
+      ]
+    },
+    {
+      "title": "Interview with Catherine C. Eckel",
+      "author": "Elizabeth Hoffman",
+      "issue": "Spring/Summer 2013",
+      "year": 2013,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=570",
+      "topics": [
+        "Where are the Women Economics Majors?",
+        "Bell Award"
       ]
     },
     {
@@ -2396,7 +2407,7 @@
     {
       "title": "Notes on Women and the Economics Undergraduate Major",
       "author": "Claudia Goldin",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
@@ -2406,11 +2417,22 @@
     {
       "title": "On Being the Other in the Classroom",
       "author": "Lisa Saunders",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
         "Status of Women in the Economics Profession"
+      ]
+    },
+    {
+      "title": "On Being the Other in the Classroom: Confessions of an African-American Woman Economist",
+      "author": "Lisa Saunders",
+      "issue": "Spring/Summer 2013",
+      "year": 2013,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=570",
+      "topics": [
+        "Where are the Women Economics Majors?",
+        "Diversity"
       ]
     },
     {
@@ -2456,7 +2478,7 @@
     {
       "title": "The Importance of Role Models",
       "author": "Amanda Griffith",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
@@ -2496,7 +2518,7 @@
     {
       "title": "Where are the Women Economics Majors?",
       "author": "Cecilia Conrad",
-      "issue": "Spring 2013",
+      "issue": "Spring/Summer 2013",
       "year": 2013,
       "url": "",
       "topics": [
@@ -2656,7 +2678,7 @@
     {
       "title": "ABCs of R&Rs",
       "author": "Hope Corman",
-      "issue": "Spring 2011",
+      "issue": "Spring/Summer 2011",
       "year": 2011,
       "url": "",
       "topics": [
@@ -2696,7 +2718,7 @@
     {
       "title": "Getting Published in Economics Journals",
       "author": "Robert Moffitt",
-      "issue": "Spring 2011",
+      "issue": "Spring/Summer 2011",
       "year": 2011,
       "url": "",
       "topics": [
@@ -2706,7 +2728,7 @@
     {
       "title": "Hints for Having a Painless Publishing Experience",
       "author": "Patricia M. Anderson",
-      "issue": "Spring 2011",
+      "issue": "Spring/Summer 2011",
       "year": 2011,
       "url": "",
       "topics": [
@@ -2716,7 +2738,7 @@
     {
       "title": "Introduction to How to Get Published in an Economics Journal: Tips from the Experts",
       "author": "Susan Averett",
-      "issue": "Spring 2011",
+      "issue": "Spring/Summer 2011",
       "year": 2011,
       "url": "",
       "topics": [
@@ -2746,7 +2768,7 @@
     {
       "title": "Reflections of a Founding Editor",
       "author": "Shoshana Grossbard",
-      "issue": "Spring 2011",
+      "issue": "Spring/Summer 2011",
       "year": 2011,
       "url": "",
       "topics": [
@@ -2796,7 +2818,7 @@
     {
       "title": "Environmental Economics: It's not an oxymoron anymore",
       "author": "Lynne Lewis",
-      "issue": "Spring 2010",
+      "issue": "Spring/Summer 2010",
       "year": 2010,
       "url": "",
       "topics": [
@@ -2811,6 +2833,17 @@
       "url": "",
       "topics": [
         "Careers in Economics"
+      ]
+    },
+    {
+      "title": "Interview of Elizabeth Bailey",
+      "author": "Robert Willig",
+      "issue": "Spring/Summer 2010",
+      "year": 2010,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=567",
+      "topics": [
+        "Boundary Conditions",
+        "Bell Award"
       ]
     },
     {
@@ -2866,7 +2899,7 @@
     {
       "title": "The Promise and Perils of Interdisciplinary Research",
       "author": "Donna K. Ginther",
-      "issue": "Spring 2010",
+      "issue": "Spring/Summer 2010",
       "year": 2010,
       "url": "",
       "topics": [
@@ -2906,7 +2939,7 @@
     {
       "title": "Dispatches From the Tenure Wars",
       "author": "Dahlia Rudavsky",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -2924,9 +2957,21 @@
       ]
     },
     {
+      "title": "Interview with Anne Carter",
+      "author": "Rachel McCulloch",
+      "issue": "Spring/Summer 2009",
+      "year": 2009,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=566",
+      "topics": [
+        "Harassment",
+        "Discrimination and Action",
+        "Bell Award"
+      ]
+    },
+    {
       "title": "Introduction to Harassment, Discrimination, and Action",
       "author": "Martha Olney",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -2976,7 +3021,7 @@
     {
       "title": "My Tenure War",
       "author": "Julie Nelson",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -2986,7 +3031,7 @@
     {
       "title": "Sexual Harassment",
       "author": "Joni Hersch",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -3016,7 +3061,7 @@
     {
       "title": "Top 10 Tips on How to Get Funding",
       "author": "Julia Lane",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -3024,9 +3069,21 @@
       ]
     },
     {
+      "title": "Top Ten Tips on How to Get Funding",
+      "author": "Julia Lane",
+      "issue": "Spring/Summer 2009",
+      "year": 2009,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=566",
+      "topics": [
+        "Harassment",
+        "Discrimination and Action",
+        "Funding"
+      ]
+    },
+    {
       "title": "Would I Do It Again, Knowing What I Now Know?",
       "author": "Anonymous",
-      "issue": "Spring 2009",
+      "issue": "Spring/Summer 2009",
       "year": 2009,
       "url": "",
       "topics": [
@@ -3036,7 +3093,7 @@
     {
       "title": "A Career in Consulting",
       "author": "Nita Juneja",
-      "issue": "Spring 2008",
+      "issue": "Spring/Summer 2008",
       "year": 2008,
       "url": "",
       "topics": [
@@ -3046,7 +3103,7 @@
     {
       "title": "A Career in the Central Bank",
       "author": "Christine Cumming",
-      "issue": "Spring 2008",
+      "issue": "Spring/Summer 2008",
       "year": 2008,
       "url": "",
       "topics": [
@@ -3076,7 +3133,7 @@
     {
       "title": "Creative Destruction: A Perspective on a Career",
       "author": "Ellen Dulberger",
-      "issue": "Spring 2008",
+      "issue": "Spring/Summer 2008",
       "year": 2008,
       "url": "",
       "topics": [
@@ -3116,7 +3173,7 @@
     {
       "title": "Introduction to Alternative Career Paths in Economics",
       "author": "Trish Mosser",
-      "issue": "Spring 2008",
+      "issue": "Spring/Summer 2008",
       "year": 2008,
       "url": "",
       "topics": [
@@ -3804,7 +3861,7 @@
     {
       "title": "Introduction to Professional Advancement",
       "author": "Claudia Goldin",
-      "issue": "Spring/Summer  2003",
+      "issue": "Spring/Summer 2003",
       "year": 2003,
       "url": "",
       "topics": [
@@ -3824,7 +3881,7 @@
     {
       "title": "Looking at Both Sides: Academic and Non-Academic Jobs",
       "author": "Sandra Black",
-      "issue": "Spring/Summer  2003",
+      "issue": "Spring/Summer 2003",
       "year": 2003,
       "url": "",
       "topics": [
@@ -3834,7 +3891,7 @@
     {
       "title": "On Being Placement Director in a Buyer's Market",
       "author": "Claudia Goldin",
-      "issue": "Spring/Summer  2003",
+      "issue": "Spring/Summer 2003",
       "year": 2003,
       "url": "",
       "topics": [
@@ -3852,9 +3909,20 @@
       ]
     },
     {
+      "title": "Publishing in Economics Journals: Trends Young Economists (and Everyone Else) Should Be Aware Of",
+      "author": "Glenn Ellison",
+      "issue": "Spring/Summer 2003",
+      "year": 2003,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=590",
+      "topics": [
+        "Professional Advancement",
+        "Publishing"
+      ]
+    },
+    {
       "title": "Publishing in Economics Journals: Trends Young Economists Should Be Aware Of",
       "author": "Glenn Ellison",
-      "issue": "Spring/Summer  2003",
+      "issue": "Spring/Summer 2003",
       "year": 2003,
       "url": "",
       "topics": [
@@ -4124,7 +4192,7 @@
     {
       "title": "Ms. Mentor Orates To Economists",
       "author": "Beth Allen",
-      "issue": "Spring/Summer  2001",
+      "issue": "Spring/Summer 2001",
       "year": 2001,
       "url": "",
       "topics": [
@@ -4134,7 +4202,7 @@
     {
       "title": "One Approach to Balancing Work and Family",
       "author": "Karen Conway",
-      "issue": "Spring/Summer  2001",
+      "issue": "Spring/Summer 2001",
       "year": 2001,
       "url": "",
       "topics": [
@@ -4174,7 +4242,7 @@
     {
       "title": "The CCOFFE Experience: Reflections from a Mentor and a Mentee",
       "author": "Jean Kimmel",
-      "issue": "Spring/Summer  2001",
+      "issue": "Spring/Summer 2001",
       "year": 2001,
       "url": "",
       "topics": [
@@ -4184,7 +4252,7 @@
     {
       "title": "Tips on Dual, Not Dueling, Careers",
       "author": "Deborah Freund",
-      "issue": "Spring/Summer  2001",
+      "issue": "Spring/Summer 2001",
       "year": 2001,
       "url": "",
       "topics": [
@@ -4354,7 +4422,7 @@
     {
       "title": "Being Chair",
       "author": "Nancy Marion",
-      "issue": "Spring  1999",
+      "issue": "Spring 1999",
       "year": 1999,
       "url": "",
       "topics": [
@@ -4394,7 +4462,7 @@
     {
       "title": "Report From Sweden: The Nobel Award Ceremonies",
       "author": "Elyce Rotella",
-      "issue": "Spring  1999",
+      "issue": "Spring 1999",
       "year": 1999,
       "url": "",
       "topics": [
@@ -4404,7 +4472,7 @@
     {
       "title": "Social Policy Research in the Private Sector",
       "author": "Jean Baldwin Grossman",
-      "issue": "Spring  1999",
+      "issue": "Spring 1999",
       "year": 1999,
       "url": "",
       "topics": [
@@ -4419,6 +4487,27 @@
       "url": "",
       "topics": [
         "Economics Fields"
+      ]
+    },
+    {
+      "title": "Teaching in Research Schools",
+      "author": "Gail Mitchell Hoyt",
+      "issue": "Fall 1999",
+      "year": 1999,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=948",
+      "topics": [
+        "Teaching",
+        "Career Paths"
+      ]
+    },
+    {
+      "title": "The Benefits and Costs of Team Teaching",
+      "author": "",
+      "issue": "Fall 1999",
+      "year": 1999,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=948",
+      "topics": [
+        "Teaching"
       ]
     },
     {
@@ -4462,6 +4551,18 @@
       ]
     },
     {
+      "title": "An Interview with Alice Rivlin",
+      "author": "Hali J. Edison",
+      "issue": "Spring/Summer 1998",
+      "year": 1998,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=944",
+      "topics": [
+        "Notable Women Economists",
+        "Career Paths",
+        "Public Policy"
+      ]
+    },
+    {
       "title": "Maria Edgeworth and Classical Political Economy",
       "author": "William Kern",
       "issue": "Winter 1998",
@@ -4484,7 +4585,7 @@
     {
       "title": "On Becoming a Member of a Corporate Board of Directors",
       "author": "Olivia Mitchell",
-      "issue": "Fall  1998",
+      "issue": "Fall 1998",
       "year": 1998,
       "url": "",
       "topics": [
@@ -4502,9 +4603,19 @@
       ]
     },
     {
+      "title": "Roles of Traditional Mentoring and Team Mentoring",
+      "author": "",
+      "issue": "Winter 1998",
+      "year": 1998,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=940",
+      "topics": [
+        "Mentoring"
+      ]
+    },
+    {
       "title": "Strategies for a Successful Start at a Teaching College",
       "author": "Elizabeth Schmitt",
-      "issue": "Fall  1998",
+      "issue": "Fall 1998",
       "year": 1998,
       "url": "",
       "topics": [
@@ -4514,7 +4625,7 @@
     {
       "title": "The \"E-Mentor:\" A World Wide Web List of Resources for the Professional Development of Academic Economists",
       "author": "Linda Manning",
-      "issue": "Fall  1998",
+      "issue": "Fall 1998",
       "year": 1998,
       "url": "",
       "topics": [
@@ -4554,7 +4665,7 @@
     {
       "title": "Women's Contributions to Public Economics",
       "author": "Daphne Kenyon",
-      "issue": "Fall  1998",
+      "issue": "Fall 1998",
       "year": 1998,
       "url": "",
       "topics": [
@@ -4574,7 +4685,7 @@
     {
       "title": "CSWEP in Retrospect",
       "author": "Carolyn Shaw Bell",
-      "issue": "Fall  1997",
+      "issue": "Fall 1997",
       "year": 1997,
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
       "topics": [
@@ -4584,7 +4695,7 @@
     {
       "title": "CSWEP: Past, Present and Future",
       "author": "Robin Bartlett",
-      "issue": "Fall  1997",
+      "issue": "Fall 1997",
       "year": 1997,
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
       "topics": [
@@ -4609,6 +4720,17 @@
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
       "topics": [
         "Women in Economics"
+      ]
+    },
+    {
+      "title": "Creating Career Opportunities for Female Economists",
+      "author": "",
+      "issue": "Spring 1997",
+      "year": 1997,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=626",
+      "topics": [
+        "Career Paths",
+        "Gender Inequality"
       ]
     },
     {
@@ -4644,7 +4766,7 @@
     {
       "title": "Introduction",
       "author": "Kenneth Small",
-      "issue": "Fall  1997",
+      "issue": "Fall 1997",
       "year": 1997,
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
       "topics": [
@@ -4674,7 +4796,7 @@
     {
       "title": "Women in Academy",
       "author": "Rebecca Blank",
-      "issue": "Fall  1997",
+      "issue": "Fall 1997",
       "year": 1997,
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
       "topics": [
@@ -4684,11 +4806,22 @@
     {
       "title": "Women in Business",
       "author": "Sharon Smith",
-      "issue": "Fall  1997",
+      "issue": "Fall 1997",
       "year": 1997,
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
       "topics": [
         "Women in Economics"
+      ]
+    },
+    {
+      "title": "Women's Contribution to Development Economics",
+      "author": "",
+      "issue": "Spring 1997",
+      "year": 1997,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=626",
+      "topics": [
+        "Development Economics",
+        "Research Contributions"
       ]
     },
     {
@@ -4722,6 +4855,16 @@
       ]
     },
     {
+      "title": "Administrative Location Of Your Economics Department And How It Affects You",
+      "author": "",
+      "issue": "Winter 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=941",
+      "topics": [
+        "Academic Administration"
+      ]
+    },
+    {
       "title": "Collegiality",
       "author": "Jo Anna Gray",
       "issue": "Special Reprint 1996",
@@ -4729,6 +4872,17 @@
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
       "topics": [
         "Tenure & Promotion"
+      ]
+    },
+    {
+      "title": "Finding A Career In Academic Administration",
+      "author": "",
+      "issue": "Winter 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=941",
+      "topics": [
+        "Career Paths",
+        "Academic Administration"
       ]
     },
     {
@@ -4792,6 +4946,16 @@
       ]
     },
     {
+      "title": "My Life As An Economist: A Non-Linear Career",
+      "author": "",
+      "issue": "Winter 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=941",
+      "topics": [
+        "Career Paths"
+      ]
+    },
+    {
       "title": "Publish or Perish: The Perils of Pauline",
       "author": "Marianne Ferber",
       "issue": "Special Reprint 1996",
@@ -4812,6 +4976,16 @@
       ]
     },
     {
+      "title": "Successful Course Design",
+      "author": "",
+      "issue": "Spring 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=943",
+      "topics": [
+        "Teaching"
+      ]
+    },
+    {
       "title": "Taking Little Ones on Sabbatical",
       "author": "Betty Daniel",
       "issue": "Fall 1996",
@@ -4819,6 +4993,17 @@
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
       "topics": [
         "Work-Life Balance"
+      ]
+    },
+    {
+      "title": "The Gender Factor In Teaching Evaluations",
+      "author": "",
+      "issue": "Spring 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=943",
+      "topics": [
+        "Teaching",
+        "Gender Inequality"
       ]
     },
     {
@@ -4839,6 +5024,17 @@
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
       "topics": [
         "Tenure & Promotion"
+      ]
+    },
+    {
+      "title": "The Underrepresentation Of Women In Economics",
+      "author": "",
+      "issue": "Winter 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=941",
+      "topics": [
+        "Gender Inequality",
+        "Representation"
       ]
     },
     {
@@ -4880,42 +5076,1145 @@
       "topics": [
         "Women in Economics"
       ]
+    },
+    {
+      "title": "Women's Contribution To Industrial Organization: Part I",
+      "author": "Esther Gal-Or, Margaret E. Slade",
+      "issue": "Spring 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=943",
+      "topics": [
+        "Industrial Organization",
+        "Research Contributions"
+      ]
+    },
+    {
+      "title": "Women's Contribution to Industrial Organization: Part II",
+      "author": "",
+      "issue": "Fall 1996",
+      "year": 1996,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=601",
+      "topics": [
+        "Industrial Organization",
+        "Research Contributions"
+      ]
+    },
+    {
+      "title": "A Non-Traditional Career Path of a Woman Economist",
+      "author": "",
+      "issue": "Winter 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=577",
+      "topics": [
+        "Non-Academic Careers",
+        "Women Economists"
+      ]
+    },
+    {
+      "title": "Academic Careers for Women in Public Policy",
+      "author": "",
+      "issue": "Spring 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=552",
+      "topics": [
+        "Academic Careers",
+        "Public Policy"
+      ]
+    },
+    {
+      "title": "Academic Positions for Health Economists",
+      "author": "",
+      "issue": "Fall 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=600",
+      "topics": [
+        "Academic Careers",
+        "Health Economics"
+      ]
+    },
+    {
+      "title": "And The Two Shall Be As One: Job Sharing in an Academic Department",
+      "author": "",
+      "issue": "Fall 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=600",
+      "topics": [
+        "Work-Life Balance",
+        "Academic Careers"
+      ]
+    },
+    {
+      "title": "Charlotte Perkins Gilman (1860-1935)",
+      "author": "",
+      "issue": "Spring 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=552",
+      "topics": [
+        "History of Economics",
+        "Women Economists"
+      ]
+    },
+    {
+      "title": "Economic Imperialists Go Native: Life in a Political Science Department",
+      "author": "",
+      "issue": "Winter 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=577",
+      "topics": [
+        "Non-Academic Careers",
+        "Interdisciplinary"
+      ]
+    },
+    {
+      "title": "How to Get Alife",
+      "author": "",
+      "issue": "Winter 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=577",
+      "topics": [
+        "Work-Life Balance"
+      ]
+    },
+    {
+      "title": "Life As A Consultant and An Economist",
+      "author": "Joan G. Haworth",
+      "issue": "Spring 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=552",
+      "topics": [
+        "Non-Academic Careers",
+        "Consulting"
+      ]
+    },
+    {
+      "title": "Moving From Government to Academia",
+      "author": "Thomas D. Hopkins",
+      "issue": "Fall 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=600",
+      "topics": [
+        "Career Transitions",
+        "Academic Careers"
+      ]
+    },
+    {
+      "title": "Women's Contribution to Economic Demography",
+      "author": "",
+      "issue": "Fall 1995",
+      "year": 1995,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=600",
+      "topics": [
+        "Demography",
+        "Women Economists"
+      ]
+    },
+    {
+      "title": "A Career in Business Economics",
+      "author": "Kathleen B. Cooper",
+      "issue": "Spring 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625",
+      "topics": [
+        "Non-Academic Careers",
+        "Business Economics"
+      ]
+    },
+    {
+      "title": "An Economist's Career in a Business School",
+      "author": "",
+      "issue": "Fall 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=511",
+      "topics": [
+        "Non-Academic Careers",
+        "Business Economics"
+      ]
+    },
+    {
+      "title": "Jane Marcet: Popularizer of Political Economy",
+      "author": "",
+      "issue": "Spring 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625",
+      "topics": [
+        "History of Economics",
+        "Women Economists"
+      ]
+    },
+    {
+      "title": "More on Combining Children and Career: A View From the Trenches",
+      "author": "",
+      "issue": "Spring 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625",
+      "topics": [
+        "Work-Life Balance",
+        "Childcare"
+      ]
+    },
+    {
+      "title": "Professional Life Beyond Academe -- Yes, There Is One",
+      "author": "",
+      "issue": "Winter 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=576",
+      "topics": [
+        "Non-Academic Careers"
+      ]
+    },
+    {
+      "title": "Studying the Decline in Undergraduate Female Enrollment in Economics at Duke",
+      "author": "",
+      "issue": "Spring 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625",
+      "topics": [
+        "Gender Inequality",
+        "Economics Education"
+      ]
+    },
+    {
+      "title": "Walls Are Falling for Women in Economics, but Slowly",
+      "author": "",
+      "issue": "Winter 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=576",
+      "topics": [
+        "Gender Inequality",
+        "Academic Economics"
+      ]
+    },
+    {
+      "title": "What Is Feminist Economics?",
+      "author": "",
+      "issue": "Spring 1994",
+      "year": 1994,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=625",
+      "topics": [
+        "Feminist Economics"
+      ]
+    },
+    {
+      "title": "Combining Childbearing with a Career",
+      "author": "",
+      "issue": "Summer 1993",
+      "year": 1993,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=629",
+      "topics": [
+        "Work-Life Balance",
+        "Childcare"
+      ]
+    },
+    {
+      "title": "Data on Women's Progress in the Economics Profession",
+      "author": "",
+      "issue": "Winter 1993",
+      "year": 1993,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=648",
+      "topics": [
+        "Gender Inequality",
+        "Academic Economics"
+      ]
+    },
+    {
+      "title": "New Fields in Economics",
+      "author": "",
+      "issue": "Summer 1993",
+      "year": 1993,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=629",
+      "topics": [
+        "Economics Profession"
+      ]
+    },
+    {
+      "title": "The Gender Effect in Economics Principles Courses",
+      "author": "Gordon Anderson, Dwayne Benjamin, Melvyn Fuss",
+      "issue": "Summer 1993",
+      "year": 1993,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=629",
+      "topics": [
+        "Gender Inequality",
+        "Economics Education"
+      ]
+    },
+    {
+      "title": "Women in Science",
+      "author": "",
+      "issue": "Winter 1993",
+      "year": 1993,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=648",
+      "topics": [
+        "Gender Inequality",
+        "STEM"
+      ]
+    },
+    {
+      "title": "Are Women 'Working' More Relative to Men as Women's Hours of Paid Work Increase?",
+      "author": "",
+      "issue": "Winter 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=647",
+      "topics": [
+        "Labor Economics",
+        "Gender Gap"
+      ]
+    },
+    {
+      "title": "Careers in Public Policy Schools",
+      "author": "",
+      "issue": "Fall 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=599",
+      "topics": [
+        "Careers",
+        "Public Policy"
+      ]
+    },
+    {
+      "title": "Gender, Coauthorship, and Academic Promotion",
+      "author": "",
+      "issue": "Spring 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=624",
+      "topics": [
+        "Gender Bias",
+        "Publishing",
+        "Promotion"
+      ]
+    },
+    {
+      "title": "Should Economists Marry Economists?",
+      "author": "",
+      "issue": "Fall 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=599",
+      "topics": [
+        "Dual Careers",
+        "Work-Life Balance"
+      ]
+    },
+    {
+      "title": "The Glass Ceiling",
+      "author": "",
+      "issue": "Fall 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=599",
+      "topics": [
+        "Gender Bias",
+        "Careers"
+      ]
+    },
+    {
+      "title": "Women's Contributions to Labor Economics: Part I",
+      "author": "Francine D. Blau, Marianne A. Ferber",
+      "issue": "Spring 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=624",
+      "topics": [
+        "Labor Economics",
+        "History of Economics"
+      ]
+    },
+    {
+      "title": "Women's Contributions to Labor Economics: Part II",
+      "author": "Francine D. Blau, Marianne A. Ferber",
+      "issue": "Fall 1992",
+      "year": 1992,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=599",
+      "topics": [
+        "Labor Economics",
+        "History of Economics"
+      ]
+    },
+    {
+      "title": "Combining Children and an Academic Career",
+      "author": "Jennifer F. Reinganum",
+      "issue": "Fall 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=510",
+      "topics": [
+        "Work-Life Balance",
+        "Parenting"
+      ]
+    },
+    {
+      "title": "Committee for Race and Gender Balance in the Economics Curriculum Presents Its Recommendations",
+      "author": "Rebecca M. Blank",
+      "issue": "Spring 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=623",
+      "topics": [
+        "Gender Bias",
+        "Race",
+        "Economics Education"
+      ]
+    },
+    {
+      "title": "Helen Frances Page Bates: The First American Woman Ph.D. in Economics",
+      "author": "",
+      "issue": "Winter 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=646",
+      "topics": [
+        "Profiles",
+        "History of Economics"
+      ]
+    },
+    {
+      "title": "Nancy Schwartz: Some Personal Views of an Outstanding Economist",
+      "author": "",
+      "issue": "Spring 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=623",
+      "topics": [
+        "Profiles"
+      ]
+    },
+    {
+      "title": "Riding Out The Recession",
+      "author": "",
+      "issue": "Spring 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=623",
+      "topics": [
+        "Careers",
+        "Macroeconomics"
+      ]
+    },
+    {
+      "title": "The Quality of Graduate Education in Economics",
+      "author": "",
+      "issue": "Spring 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=623",
+      "topics": [
+        "Economics Education",
+        "Graduate School"
+      ]
+    },
+    {
+      "title": "Women in Top-Tier Economics Departments",
+      "author": "",
+      "issue": "Winter 1991",
+      "year": 1991,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=646",
+      "topics": [
+        "Status of Women",
+        "Academia"
+      ]
+    },
+    {
+      "title": "A Guide to the Academic Job Market for Students",
+      "author": "Valerie Y. Suslow",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Job Market",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Appropriate Questions for Job Interviewers",
+      "author": "",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Job Market",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Institutions of Interest: The Wellesley College Center",
+      "author": "",
+      "issue": "Spring 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=622",
+      "topics": [
+        "Institutions"
+      ]
+    },
+    {
+      "title": "Interesting Jobs in Economics: Working for the Council of Economic Advisers",
+      "author": "",
+      "issue": "Spring 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=622",
+      "topics": [
+        "Careers",
+        "Government"
+      ]
+    },
+    {
+      "title": "Mabel Timlin: A Remarkable Canadian Economic Theorist",
+      "author": "",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Profiles",
+        "History of Economics"
+      ]
+    },
+    {
+      "title": "More Thoughts on How to Get Published",
+      "author": "Barbara D. Dennis",
+      "issue": "Spring 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=622",
+      "topics": [
+        "Publishing",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Placing Your Students: A Placement Director's Perspective",
+      "author": "",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Job Market",
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Swapping Child Care at the 1990 AEA Meeting",
+      "author": "",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Work-Life Balance"
+      ]
+    },
+    {
+      "title": "Women Economists in Canada",
+      "author": "",
+      "issue": "Fall 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=509",
+      "topics": [
+        "Status of Women",
+        "International"
+      ]
+    },
+    {
+      "title": "Writing Letters of Recommendation That Work",
+      "author": "",
+      "issue": "Winter 1990",
+      "year": 1990,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=645",
+      "topics": [
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Do Patterns of Citations Differ for Women and Men?",
+      "author": "",
+      "issue": "Spring 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=621",
+      "topics": [
+        "Gender and Economics"
+      ]
+    },
+    {
+      "title": "How Not to Perish: Tips for Submitting Articles from an Ex-editor's Point of View",
+      "author": "",
+      "issue": "Fall 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=598",
+      "topics": [
+        "Publishing"
+      ]
+    },
+    {
+      "title": "Maternal and Parental Leave Policies for Faculty",
+      "author": "",
+      "issue": "Spring 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=621",
+      "topics": [
+        "Work-Life Balance"
+      ]
+    },
+    {
+      "title": "More on How the NSF Economics Program Works",
+      "author": "",
+      "issue": "Fall 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=598",
+      "topics": [
+        "Grants"
+      ]
+    },
+    {
+      "title": "Nonacademic Careers in Financial Services: A Personal Perspective",
+      "author": "Laurie Goodman",
+      "issue": "Spring 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=621",
+      "topics": [
+        "Nonacademic Careers"
+      ]
+    },
+    {
+      "title": "Older Women's Work",
+      "author": "",
+      "issue": "Winter 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=644",
+      "topics": [
+        "Labor Economics"
+      ]
+    },
+    {
+      "title": "Opportunities for Women and the National Science Foundation",
+      "author": "",
+      "issue": "Fall 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=598",
+      "topics": [
+        "Grants"
+      ]
+    },
+    {
+      "title": "Strategies for Publishing Journal Articles",
+      "author": "",
+      "issue": "Winter 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=644",
+      "topics": [
+        "Publishing"
+      ]
+    },
+    {
+      "title": "Supply, Demand, and the Green Eyeshade",
+      "author": "",
+      "issue": "Winter 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=644",
+      "topics": [
+        "Labor Economics"
+      ]
+    },
+    {
+      "title": "Which Journals Practice Blind Refereeing?",
+      "author": "",
+      "issue": "Fall 1989",
+      "year": 1989,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=598",
+      "topics": [
+        "Publishing"
+      ]
+    },
+    {
+      "title": "Book Review of Dollars and Dreams: The Changing American Income Distribution",
+      "author": "",
+      "issue": "Winter 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=575",
+      "topics": [
+        "Income Distribution"
+      ]
+    },
+    {
+      "title": "Child Support Policy",
+      "author": "Anne R. Gordon",
+      "issue": "Spring 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=620",
+      "topics": [
+        "Child Support Policy"
+      ]
+    },
+    {
+      "title": "Choosing a Career Path as a Professional Economist",
+      "author": "",
+      "issue": "Spring 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=620",
+      "topics": [
+        "Career Development"
+      ]
+    },
+    {
+      "title": "Economists as Budget Planners",
+      "author": "",
+      "issue": "Fall 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597",
+      "topics": [
+        "Nonacademic Careers"
+      ]
+    },
+    {
+      "title": "Getting Grants--Some Tips and Opportunities",
+      "author": "",
+      "issue": "Winter 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=575",
+      "topics": [
+        "Grants"
+      ]
+    },
+    {
+      "title": "Getting Women Appointed to the Next Administration",
+      "author": "",
+      "issue": "Fall 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597",
+      "topics": [
+        "Women in the Economics Profession"
+      ]
+    },
+    {
+      "title": "How to Get on the Program at the ASSA Meetings",
+      "author": "Michelle White",
+      "issue": "Fall 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597",
+      "topics": [
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "More on Gender and Economics",
+      "author": "",
+      "issue": "Winter 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=575",
+      "topics": [
+        "Gender and Economics"
+      ]
+    },
+    {
+      "title": "Point-Counterpoint: Comparable Worth",
+      "author": "",
+      "issue": "Winter 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=575",
+      "topics": [
+        "Comparable Worth"
+      ]
+    },
+    {
+      "title": "Raising the Next Generation: Who Shall Pay?",
+      "author": "Emily Stoper",
+      "issue": "Spring 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=620",
+      "topics": [
+        "Child Support Policy"
+      ]
+    },
+    {
+      "title": "The Economic Emergence of Women: A Review",
+      "author": "",
+      "issue": "Fall 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597",
+      "topics": [
+        "Women in the Economics Profession"
+      ]
+    },
+    {
+      "title": "What Economists Do in Industry",
+      "author": "",
+      "issue": "Spring 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=620",
+      "topics": [
+        "Nonacademic Careers"
+      ]
+    },
+    {
+      "title": "Women and Minorities in Science and Engineering",
+      "author": "",
+      "issue": "Fall 1988",
+      "year": 1988,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=597",
+      "topics": [
+        "Women in STEM"
+      ]
+    },
+    {
+      "title": "Economic Statistics: An Important Part of Economists' Training",
+      "author": "",
+      "issue": "Spring/Summer 1987",
+      "year": 1987,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=550",
+      "topics": [
+        "Education"
+      ]
+    },
+    {
+      "title": "Gender and Economic Thought",
+      "author": "Julie A. Nelson",
+      "issue": "Fall 1987",
+      "year": 1987,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=508",
+      "topics": [
+        "Gender and Economics"
+      ]
+    },
+    {
+      "title": "More on Double-blind Reviewing",
+      "author": "",
+      "issue": "Fall 1987",
+      "year": 1987,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=508",
+      "topics": [
+        "Publishing"
+      ]
+    },
+    {
+      "title": "Academic Opportunities: Looking Beyond the Economics Department",
+      "author": "",
+      "issue": "Spring 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=619",
+      "topics": [
+        "Career Paths"
+      ]
+    },
+    {
+      "title": "An Economist's Job in the International Monetary Fund",
+      "author": "",
+      "issue": "Winter 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=573",
+      "topics": [
+        "Career Paths"
+      ]
+    },
+    {
+      "title": "An Insider's View of the AEA's Nominating Process",
+      "author": "",
+      "issue": "Fall 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507",
+      "topics": [
+        "Professional Networks"
+      ]
+    },
+    {
+      "title": "CWAE - A CSWEP Sister",
+      "author": "",
+      "issue": "Winter 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=573",
+      "topics": [
+        "Professional Networks"
+      ]
+    },
+    {
+      "title": "How to Get on the Program at the ASSA",
+      "author": "",
+      "issue": "Spring 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=619",
+      "topics": [
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Journal Reviewing Practices and the Progress of Women in the Economics Profession: Is There a Relationship?",
+      "author": "Linda N. Edwards and Marianne A. Ferber",
+      "issue": "Fall 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507",
+      "topics": [
+        "Journal Reviewing Practices"
+      ]
+    },
+    {
+      "title": "Some Thoughts on Finding Academic Jobs: How to Enter the Market",
+      "author": "",
+      "issue": "Fall 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507",
+      "topics": [
+        "Job Market"
+      ]
+    },
+    {
+      "title": "The Caucus for Women in Statistics",
+      "author": "",
+      "issue": "Fall 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507",
+      "topics": [
+        "Professional Networks"
+      ]
+    },
+    {
+      "title": "The Job Market for Economists",
+      "author": "",
+      "issue": "Fall 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=507",
+      "topics": [
+        "Job Market"
+      ]
+    },
+    {
+      "title": "Working on Capitol Hill",
+      "author": "",
+      "issue": "Spring 1986",
+      "year": 1986,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=619",
+      "topics": [
+        "Career Paths"
+      ]
+    },
+    {
+      "title": "Economic Equity",
+      "author": "",
+      "issue": "Summer 1985",
+      "year": 1985,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=559",
+      "topics": [
+        "Pay Equity"
+      ]
+    },
+    {
+      "title": "Gender Balance in The Economics Curriculum",
+      "author": "",
+      "issue": "Summer 1985",
+      "year": 1985,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=559",
+      "topics": [
+        "Education"
+      ]
+    },
+    {
+      "title": "Is Forbidding Discrimination Inefficient?",
+      "author": "Shelly J. Lundberg and Richard Startz",
+      "issue": "Winter 1985",
+      "year": 1985,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=572",
+      "topics": [
+        "Discrimination"
+      ]
+    },
+    {
+      "title": "Pregnancy and Tenure",
+      "author": "",
+      "issue": "Summer 1985",
+      "year": 1985,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=559",
+      "topics": [
+        "Tenure"
+      ]
+    },
+    {
+      "title": "Citations: Are They an Objective Measure of Merit?",
+      "author": "Marianne A. Ferber",
+      "issue": "Winter 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=571",
+      "topics": [
+        "Gender Discrimination"
+      ]
+    },
+    {
+      "title": "Clubs That Exclude Women",
+      "author": "Robin L. Bartlett",
+      "issue": "Spring 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=548",
+      "topics": [
+        "Gender Discrimination"
+      ]
+    },
+    {
+      "title": "Economists and Reformers at Berkeley, 1900 to 1960",
+      "author": "Mary Cookingham",
+      "issue": "Spring 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=548",
+      "topics": [
+        "History of Economics"
+      ]
+    },
+    {
+      "title": "Gender in Introductory Economics",
+      "author": "Susan F. Feiner and Barbara A. Morgan",
+      "issue": "Fall 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=497",
+      "topics": [
+        "Economics Education"
+      ]
+    },
+    {
+      "title": "Technology's Dean: Elizabeth E. Bailey",
+      "author": "Kirk Johnson",
+      "issue": "Fall 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=497",
+      "topics": [
+        "Profiles"
+      ]
+    },
+    {
+      "title": "The Dilemma of Affirmative Action",
+      "author": "Barbara R. Bergmann",
+      "issue": "Spring 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=548",
+      "topics": [
+        "Affirmative Action"
+      ]
+    },
+    {
+      "title": "The Management Gap in Economic Policy",
+      "author": "Marta Mooney",
+      "issue": "Winter 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=571",
+      "topics": [
+        "Economic Policy"
+      ]
+    },
+    {
+      "title": "Women in the Professional Associations",
+      "author": "Maren Lockwood Carden",
+      "issue": "Winter 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=571",
+      "topics": [
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Work Characteristics and the Male-Female Earnings Gap",
+      "author": "Marianne A. Ferber and Joe L. Spaeth",
+      "issue": "Spring 1984",
+      "year": 1984,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=548",
+      "topics": [
+        "Earnings Gap"
+      ]
+    },
+    {
+      "title": "Economics From Three Perspectives",
+      "author": "Marina v. N. Whitman",
+      "issue": "Fall 1983",
+      "year": 1983,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=515",
+      "topics": [
+        "Professional Development"
+      ]
+    },
+    {
+      "title": "Forbidding the Use of Gender in Insurance",
+      "author": "Barbara R. Bergmann",
+      "issue": "Fall 1983",
+      "year": 1983,
+      "url": "https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=515",
+      "topics": [
+        "Gender Discrimination"
+      ]
     }
   ],
   "filters": {
     "topics": [
       "Abortion Access",
+      "Academia",
+      "Academic Administration",
+      "Academic Careers",
+      "Academic Economics",
+      "Affirmative Action",
       "Alternative Career Paths",
+      "Bell Award",
       "Bennett Prize",
+      "Boundary Conditions",
+      "Business Economics",
       "COVID Impact",
       "Career Challenges",
+      "Career Development",
+      "Career Paths",
+      "Career Transitions",
+      "Careers",
       "Careers in Economics",
+      "Child Support Policy",
+      "Childcare",
+      "Comparable Worth",
+      "Consulting",
+      "Demography",
+      "Development Economics",
+      "Discrimination",
       "Discrimination & Sexual Harassment",
+      "Discrimination and Action",
+      "Diversity",
       "Diversity & Inclusion",
       "Dual Careers",
+      "Earnings Gap",
+      "Economic Policy",
+      "Economics Education",
       "Economics Fields",
+      "Economics Profession",
+      "Education",
       "Ethics",
+      "Feminist Economics",
       "Fertility",
       "Funding",
+      "Gender Bias",
+      "Gender Discrimination",
+      "Gender Gap",
+      "Gender Inequality",
+      "Gender and Economics",
       "General Interest",
+      "Government",
+      "Graduate School",
       "Graduate Study in Economics",
       "Grant Writing",
+      "Grants",
+      "Harassment",
+      "Health Economics",
       "History of CSWEP",
+      "History of Economics",
+      "Income Distribution",
+      "Industrial Organization",
+      "Institutions",
+      "Interdisciplinary",
+      "International",
       "International Perspective",
       "Job Market",
+      "Journal Reviewing Practices",
       "LGBT",
+      "Labor Economics",
+      "Macroeconomics",
       "Media Relations",
       "Mentoring",
+      "Non-Academic Careers",
       "Non-Tenure Track",
+      "Nonacademic Careers",
+      "Notable Women Economists",
       "Outside Academia",
+      "Parenting",
+      "Pay Equity",
       "PhD Admissions",
+      "Professional Advancement",
       "Professional Development",
+      "Professional Networks",
+      "Profiles",
       "Promoting Female Economists",
+      "Promotion",
+      "Public Policy",
       "Public Universities",
       "Publishing",
+      "Race",
+      "Representation",
       "Research",
+      "Research Contributions",
       "Research Funding",
       "Retention",
+      "STEM",
       "Seminar Dynamics",
       "Sexual Harassment",
       "Social Media",
@@ -4923,18 +6222,23 @@
       "Status of Women in the Economics Profession",
       "Teaching",
       "Technology",
+      "Tenure",
       "Tenure & Promotion",
       "The Status of Women in the Economics Profession",
       "Undergraduate Experience",
       "Visibility & Voice",
+      "Where are the Women Economics Majors?",
+      "Women Economists",
       "Women Economists Assocations",
       "Women in Economics",
       "Women in Leadership",
+      "Women in STEM",
+      "Women in the Economics Profession",
       "Work-Life Balance"
     ]
   },
   "stats": {
-    "total": 477,
-    "topic_count": 47
+    "total": 595,
+    "topic_count": 112
   }
 }
