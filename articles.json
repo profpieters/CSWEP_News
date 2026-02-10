@@ -1839,9 +1839,12 @@
       "issue": "Issue I 2018",
       "year": 2018,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Applying Lessons from First-Generation Students to Women in Economics",
@@ -1919,9 +1922,12 @@
       "issue": "Issue I 2018",
       "year": 2018,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Talking To the Media About Your Academic Research",
@@ -1971,9 +1977,12 @@
       "issue": "Issue I 2018",
       "year": 2018,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "We Can Act: Lessons learned in Philosophy from the APA ad hoc committee on sexual harassment in the profession",
@@ -1981,9 +1990,12 @@
       "issue": "Issue I 2018",
       "year": 2018,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "When Your Research Goes Viral",
@@ -2005,9 +2017,12 @@
       "issue": "Issue I 2017",
       "year": 2017,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Best Practices in Recruiting, Advancing, and Mentoring for Diversity",
@@ -2015,9 +2030,12 @@
       "issue": "Issue II 2017",
       "year": 2017,
       "topic": "Mentoring",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Diversity and Inclusion at the Federal Reserve Board: A Program for Change",
@@ -2025,9 +2043,12 @@
       "issue": "Issue II 2017",
       "year": 2017,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Facilitating Success for Diverse Junior Economists",
@@ -2035,9 +2056,12 @@
       "issue": "Issue II 2017",
       "year": 2017,
       "topic": "Mentoring",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Focusing on Taking Responsibility: Best Practices in Recruiting and Mentoring Diverse Economists",
@@ -2045,9 +2069,12 @@
       "issue": "Issue II 2017",
       "year": 2017,
       "topic": "Mentoring",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Introduction: Focus on Working with a Research Group and Co-authors",
@@ -2055,9 +2082,12 @@
       "issue": "Issue III 2017",
       "year": 2017,
       "topic": "Research",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Making Your Own Choices: The Art of Saying No and the Art of Saying Yes",
@@ -2065,9 +2095,12 @@
       "issue": "Issue I 2017",
       "year": 2017,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Mentoring Student Teams",
@@ -2075,9 +2108,12 @@
       "issue": "Issue III 2017",
       "year": 2017,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Norms and Communication in Collaboration",
@@ -2085,9 +2121,12 @@
       "issue": "Issue III 2017",
       "year": 2017,
       "topic": "Professional Development",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "The Keys to Effective Collaboration",
@@ -2095,9 +2134,12 @@
       "issue": "Issue III 2017",
       "year": 2017,
       "topic": "Professional Development",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Thoughts on Managing Time and Administrative Work",
@@ -2105,9 +2147,12 @@
       "issue": "Issue I 2017",
       "year": 2017,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Tips and Language for Saying 'No' from CeMENT Mentors",
@@ -2115,9 +2160,12 @@
       "issue": "Issue I 2017",
       "year": 2017,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "We've Built the Pipeline: What's the Problem and What's Next?",
@@ -2125,9 +2173,12 @@
       "issue": "Issue II 2017",
       "year": 2017,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Advice from Placement Directors",
@@ -2135,9 +2186,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Advice from Recipients of CSWEP's Carolyn Shaw Bell Award",
@@ -2145,9 +2199,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "CSWEP Restructured",
@@ -2155,9 +2212,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Considerations for LGBT Economists in Dual-Career Situations",
@@ -2165,9 +2225,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "LGBT",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "LGBT"
+      ]
     },
     {
       "title": "Economic Measurement Research at the Census Bureau",
@@ -2175,9 +2238,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Economists in the Antitrust Division",
@@ -2185,9 +2251,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "INTRODUCTION Standing in Front of the Classroom and Interacting with Students: Challenges, Opportunities and Strategies for Female Faculty in Economics",
@@ -2195,9 +2264,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Institutional Matters",
@@ -2205,9 +2277,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Interview with BLS Commissioner Erica Groshen",
@@ -2215,9 +2290,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Mind the Gap: Addressing Gender and Racial Disparities in Economics",
@@ -2225,9 +2303,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "More on Timing and Strategy",
@@ -2235,9 +2316,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Navigating a Joint Job Search: Evidence from the Job Seekers' Study",
@@ -2245,9 +2329,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Our Dual-Career Search Experience and Advice",
@@ -2255,9 +2342,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Reflections on the Founding of CSWEP",
@@ -2265,9 +2355,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Some Advice on Teaching Economics",
@@ -2275,9 +2368,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Teaching Challenges and Strategies for Improvement at a Liberal Arts College",
@@ -2285,9 +2381,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Teaching Economics to Undergraduate Students as an International Faculty Member",
@@ -2295,9 +2394,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "The Dual Job Search: Early Honesty is the Best Policy",
@@ -2305,9 +2407,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "The Two-Body Opportunity for Universities",
@@ -2315,9 +2420,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Think About the Long Run",
@@ -2325,9 +2433,12 @@
       "issue": "Issue II 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Warming Up the Climate in the Classroom: Challenges, Strategies, and Rewards",
@@ -2335,9 +2446,12 @@
       "issue": "Issue III 2016",
       "year": 2016,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "What It's Like to Be an Economist at the Congressional Budget Office",
@@ -2345,9 +2459,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "What Research Economists Do at the Bureau of Labor Statistics",
@@ -2355,9 +2472,12 @@
       "issue": "Issue I 2016",
       "year": 2016,
       "topic": "Job Market",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "2014 Report on the Status of Women in the Economics Profession",
@@ -2365,9 +2485,12 @@
       "issue": "Issue I 2015",
       "year": 2015,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Association for the Advancement of African Women Economists",
@@ -2375,9 +2498,12 @@
       "issue": "Issue I 2015",
       "year": 2015,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Chinese Women Economists Network",
@@ -2385,9 +2511,12 @@
       "issue": "Issue I 2015",
       "year": 2015,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Conflicts of Interest and Ethical Research Standards at the AEA Journals",
@@ -2395,9 +2524,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Dos and Don’ts of the Publication Process",
@@ -2405,9 +2537,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Economics Should Incentivize Replications",
@@ -2415,9 +2550,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Ethical Issues in Economics Research: The Journal of Political Economy",
@@ -2425,9 +2563,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Ethical Issues in Grant Review",
@@ -2435,9 +2576,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Get Credit Where It’s Due",
@@ -2445,9 +2589,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "How Transparent Is Economics Research",
@@ -2455,9 +2602,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "How Well Are Women Represented on the AEA Program?",
@@ -2465,9 +2615,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Interview of Emi Nakamura",
@@ -2475,9 +2628,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Bennett Prize",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Bennett Prize"
+      ]
     },
     {
       "title": "Introduction to Associations of Women Economists Around the Globe",
@@ -2485,9 +2641,12 @@
       "issue": "Issue I 2015",
       "year": 2015,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Introduction to Ethical Issues in Economics Research, Part I",
@@ -2495,9 +2654,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Introduction to Ethical Issues in Economics Research, Part II",
@@ -2505,9 +2667,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Remembering Barbara Bergmann",
@@ -2515,9 +2680,12 @@
       "issue": "Issue II 2015",
       "year": 2015,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Why We Watch Retractions",
@@ -2525,9 +2693,12 @@
       "issue": "Issue III 2015",
       "year": 2015,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "2013 Report on the Status of Women in the Economics Profession",
@@ -2535,9 +2706,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Advice for New PhDs on the Job Market",
@@ -2545,9 +2719,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Being Research Productive at non-Research Intensive Institutions",
@@ -2555,9 +2732,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Considering Graduate Education in Economics? A Few Things to Ponder",
@@ -2565,9 +2745,12 @@
       "issue": "Spring/Summer 2014",
       "year": 2014,
       "topic": "Graduate Study in Economics",
-      "audience": "Undergraduates",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Undergraduates",
+      "topics": [
+        "Graduate Study in Economics"
+      ]
     },
     {
       "title": "Finding the Right Match",
@@ -2575,9 +2758,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Four Steps to Getting Research Done at an Institution without Graduate Programs",
@@ -2585,9 +2771,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Getting Admitted to a PhD Program: What Does it Take?",
@@ -2595,9 +2784,12 @@
       "issue": "Spring/Summer 2014",
       "year": 2014,
       "topic": "Graduate Study in Economics",
-      "audience": "Undergraduates",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Undergraduates",
+      "topics": [
+        "Graduate Study in Economics"
+      ]
     },
     {
       "title": "Getting Research Done at a Teaching-Intensive University",
@@ -2605,9 +2797,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "How I Get Research Done",
@@ -2615,9 +2810,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Introduction to Fall 2014 Navigating the Job Market 2.0",
@@ -2625,9 +2823,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Introduction to Getting into and Finishing a PhD Program",
@@ -2635,9 +2836,12 @@
       "issue": "Spring/Summer 2014",
       "year": 2014,
       "topic": "Graduate Study in Economics",
-      "audience": "Undergraduates",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Undergraduates",
+      "topics": [
+        "Graduate Study in Economics"
+      ]
     },
     {
       "title": "Job Market Resources: Applying to Teaching-Focused Institutions",
@@ -2645,9 +2849,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Job Market Resources: General Advice",
@@ -2655,9 +2862,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Job Market Resources: Special Situations",
@@ -2665,9 +2875,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Job Market Resources: The Diversity Statement",
@@ -2675,9 +2888,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Preparation for Research in Graduate School",
@@ -2685,9 +2901,12 @@
       "issue": "Spring/Summer 2014",
       "year": 2014,
       "topic": "Graduate Study in Economics",
-      "audience": "Undergraduates",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Undergraduates",
+      "topics": [
+        "Graduate Study in Economics"
+      ]
     },
     {
       "title": "Tips on How to be a Productive Scholar at a Liberal Arts College",
@@ -2695,9 +2914,12 @@
       "issue": "Winter 2014",
       "year": 2014,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Views from the Trenches: What Current Economics Graduate Students Say",
@@ -2705,9 +2927,12 @@
       "issue": "Spring/Summer 2014",
       "year": 2014,
       "topic": "Graduate Study in Economics",
-      "audience": "Undergraduates",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Undergraduates",
+      "topics": [
+        "Graduate Study in Economics"
+      ]
     },
     {
       "title": "When and Why Academic Job Cover Letters Matter",
@@ -2715,9 +2940,12 @@
       "issue": "Fall 2014",
       "year": 2014,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "2012 Report on the Status of Women in the Economics Profession",
@@ -2725,9 +2953,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "A Celebration of the Life of Anna Jacobson Schwartz",
@@ -2735,9 +2966,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "An Undergraduate Major's Perspective",
@@ -2745,9 +2979,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Anna Schwartz",
@@ -2755,9 +2992,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Anna Schwartz Memorial",
@@ -2765,9 +3005,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Anna Schwartz and Her Contributions",
@@ -2775,9 +3018,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Anna Schwartz: My Mentor",
@@ -2785,9 +3031,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Attracting More Women and Minorities into Economics",
@@ -2795,9 +3044,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Introduction to Navigating the Tenure Process",
@@ -2805,9 +3057,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Memorial Remarks for Anna Jacobson Schwartz",
@@ -2815,9 +3070,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Notes on Women and the Economics Undergraduate Major",
@@ -2825,9 +3083,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "On Being the Other in the Classroom",
@@ -2835,9 +3096,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Remembering Anna Jacobson Schwartz",
@@ -2845,9 +3109,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Remembering Anna Schwartz",
@@ -2855,9 +3122,12 @@
       "issue": "Fall 2013",
       "year": 2013,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Should I Stay or Should I Go Now? Going on the Job Market Prior to Tenure",
@@ -2865,9 +3135,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Tenure Letters",
@@ -2875,9 +3148,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "The Importance of Role Models",
@@ -2885,9 +3161,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "The Tenure Process at Liberal Arts Colleges",
@@ -2895,9 +3174,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "The Tenure Process at Research Universities",
@@ -2905,9 +3187,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Top 10 tips for writing research, teaching, and service statements",
@@ -2915,9 +3200,12 @@
       "issue": "Winter 2013",
       "year": 2013,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Where are the Women Economics Majors?",
@@ -2925,9 +3213,12 @@
       "issue": "Spring 2013",
       "year": 2013,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Academic Life in Australia",
@@ -2935,9 +3226,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Does Working Outside the U.S. Affect Scientific Productivity?",
@@ -2945,9 +3239,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Finding and Working in an Academic Economics Job in China",
@@ -2955,9 +3252,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Introduction to Interdisciplinary Frontiers in Economics",
@@ -2965,9 +3265,12 @@
       "issue": "Spring/Summer 2012",
       "year": 2012,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Introduction to Using Social Media in Economics",
@@ -2975,9 +3278,12 @@
       "issue": "Winter 2012",
       "year": 2012,
       "topic": "Social Media",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Social Media"
+      ]
     },
     {
       "title": "Introduction to the International Job Market for Economists",
@@ -2985,9 +3291,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Lessons Learned from Working in Interdiscplinary Population and Social Policy Programs",
@@ -2995,9 +3304,12 @@
       "issue": "Spring/Summer 2012",
       "year": 2012,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Looking for an Assistant Professor Job and Working in Europe",
@@ -3005,9 +3317,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Starting a New Interdisciplinary PhD Program",
@@ -3015,9 +3330,12 @@
       "issue": "Spring/Summer 2012",
       "year": 2012,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Teaching with Economics Blogs",
@@ -3025,9 +3343,12 @@
       "issue": "Winter 2012",
       "year": 2012,
       "topic": "Social Media",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Social Media"
+      ]
     },
     {
       "title": "The Academic Labor Market in Japan and the Presences of Women",
@@ -3035,9 +3356,12 @@
       "issue": "Fall 2012",
       "year": 2012,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "The Impact of Economics Blogs",
@@ -3045,9 +3369,12 @@
       "issue": "Winter 2012",
       "year": 2012,
       "topic": "Social Media",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Social Media"
+      ]
     },
     {
       "title": "Using Social Media for Self-Promotion",
@@ -3055,9 +3382,12 @@
       "issue": "Winter 2012",
       "year": 2012,
       "topic": "Social Media",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Social Media"
+      ]
     },
     {
       "title": "What Does a Multidisciplinary Scholar Want a Singularly-Focused Economist to Know?",
@@ -3065,9 +3395,12 @@
       "issue": "Spring/Summer 2012",
       "year": 2012,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "A Career in the World of Think Tanks",
@@ -3075,9 +3408,12 @@
       "issue": "Fall 2011",
       "year": 2011,
       "topic": "Outside Academia",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Outside Academia"
+      ]
     },
     {
       "title": "ABCs of R&Rs",
@@ -3085,9 +3421,12 @@
       "issue": "Spring 2011",
       "year": 2011,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Broad versus Narrow: Research Agendas and Economists",
@@ -3095,9 +3434,12 @@
       "issue": "Winter 2011",
       "year": 2011,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Choosing and pursuing unusual research",
@@ -3105,9 +3447,12 @@
       "issue": "Winter 2011",
       "year": 2011,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Finding the Right Questions",
@@ -3115,9 +3460,12 @@
       "issue": "Winter 2011",
       "year": 2011,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Getting Published in Economics Journals",
@@ -3125,9 +3473,12 @@
       "issue": "Spring 2011",
       "year": 2011,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Hints for Having a Painless Publishing Experience",
@@ -3135,9 +3486,12 @@
       "issue": "Spring 2011",
       "year": 2011,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Introduction to How to Get Published in an Economics Journal: Tips from the Experts",
@@ -3145,9 +3499,12 @@
       "issue": "Spring 2011",
       "year": 2011,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Introduction to Inspiring Women in Policy",
@@ -3155,9 +3512,12 @@
       "issue": "Fall 2011",
       "year": 2011,
       "topic": "Outside Academia",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Outside Academia"
+      ]
     },
     {
       "title": "My Path in the Policy World",
@@ -3165,9 +3525,12 @@
       "issue": "Fall 2011",
       "year": 2011,
       "topic": "Outside Academia",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Outside Academia"
+      ]
     },
     {
       "title": "Reflections of a Founding Editor",
@@ -3175,9 +3538,12 @@
       "issue": "Spring 2011",
       "year": 2011,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "What's Your Research Agenda?",
@@ -3185,9 +3551,12 @@
       "issue": "Winter 2011",
       "year": 2011,
       "topic": "Research",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Why Choose to Be a Government Economist?",
@@ -3195,9 +3564,12 @@
       "issue": "Fall 2011",
       "year": 2011,
       "topic": "Outside Academia",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Outside Academia"
+      ]
     },
     {
       "title": "A Bakers' Dozen Tips for Aspiring Media Gurus",
@@ -3205,9 +3577,12 @@
       "issue": "Winter 2010",
       "year": 2010,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Are Budget crises and achieving the goals of diversity and gender equity incongruent?",
@@ -3215,9 +3590,12 @@
       "issue": "Fall 2010",
       "year": 2010,
       "topic": "Public Universities",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Public Universities"
+      ]
     },
     {
       "title": "Environmental Economics: It's not an oxymoron anymore",
@@ -3225,9 +3603,12 @@
       "issue": "Spring 2010",
       "year": 2010,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "I Blog, Therefore I am (Economist Mom)",
@@ -3235,9 +3616,12 @@
       "issue": "Winter 2010",
       "year": 2010,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Introduction to Academic Women and Shrinking State Budgets",
@@ -3245,9 +3629,12 @@
       "issue": "Fall 2010",
       "year": 2010,
       "topic": "Public Universities",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Public Universities"
+      ]
     },
     {
       "title": "Introduction to On Becoming a Public Economist",
@@ -3255,9 +3642,12 @@
       "issue": "Winter 2010",
       "year": 2010,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Lean Years at State Universities: What's an Economist to Do?",
@@ -3265,9 +3655,12 @@
       "issue": "Fall 2010",
       "year": 2010,
       "topic": "Public Universities",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Public Universities"
+      ]
     },
     {
       "title": "Some Thoughts on the Effect of the Recent Recession on the Status of Women in the Economics Profession",
@@ -3275,9 +3668,12 @@
       "issue": "Fall 2010",
       "year": 2010,
       "topic": "Public Universities",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Public Universities"
+      ]
     },
     {
       "title": "Stretching Your Boundaries: Economics Education in a Public Setting",
@@ -3285,9 +3681,12 @@
       "issue": "Winter 2010",
       "year": 2010,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "The Promise and Perils of Interdisciplinary Research",
@@ -3295,9 +3694,12 @@
       "issue": "Spring 2010",
       "year": 2010,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Top 10 Questions to Think About Before Your Tenure Review",
@@ -3305,9 +3707,12 @@
       "issue": "Fall 2010",
       "year": 2010,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Agree on Work and Family Priorities",
@@ -3315,9 +3720,12 @@
       "issue": "Fall 2009",
       "year": 2009,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Building a Life",
@@ -3325,9 +3733,12 @@
       "issue": "Fall 2009",
       "year": 2009,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Dispatches From the Tenure Wars",
@@ -3335,9 +3746,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Dual Career Academic Couples:  University Strategies, Opportunities, Policies",
@@ -3345,9 +3759,12 @@
       "issue": "Fall 2009",
       "year": 2009,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Introduction to Harassment, Discrimination, and Action",
@@ -3355,9 +3772,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Introduction to Managing Your Career Post-Tenure",
@@ -3365,9 +3785,12 @@
       "issue": "Winter 2009",
       "year": 2009,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Introduction to Navigating the Job Market as Dual Career Economists",
@@ -3375,9 +3798,12 @@
       "issue": "Fall 2009",
       "year": 2009,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Keeping Careers on Track while Engaging in International Research",
@@ -3385,9 +3811,12 @@
       "issue": "Winter 2009",
       "year": 2009,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Managing Your Career as an Economist after Tenure",
@@ -3395,9 +3824,12 @@
       "issue": "Winter 2009",
       "year": 2009,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "My Tenure War",
@@ -3405,9 +3837,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Sexual Harassment",
@@ -3415,9 +3850,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Sometimes Even Negotiation Professors Forget to Ask",
@@ -3425,9 +3863,12 @@
       "issue": "Winter 2009",
       "year": 2009,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Still Looking...",
@@ -3435,9 +3876,12 @@
       "issue": "Fall 2009",
       "year": 2009,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Top 10 Tips on How to Get Funding",
@@ -3445,9 +3889,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Funding",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Would I Do It Again, Knowing What I Now Know?",
@@ -3455,9 +3902,12 @@
       "issue": "Spring 2009",
       "year": 2009,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "A Career in Consulting",
@@ -3465,9 +3915,12 @@
       "issue": "Spring 2008",
       "year": 2008,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "A Career in the Central Bank",
@@ -3475,9 +3928,12 @@
       "issue": "Spring 2008",
       "year": 2008,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Administration in a University Setting",
@@ -3485,9 +3941,12 @@
       "issue": "Fall 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Being the Boss",
@@ -3495,9 +3954,12 @@
       "issue": "Winter 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Creative Destruction: A Perspective on a Career",
@@ -3505,9 +3967,12 @@
       "issue": "Spring 2008",
       "year": 2008,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Fundamental Economics on the Job",
@@ -3515,9 +3980,12 @@
       "issue": "Fall 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "How to be a Good \"Boss\"",
@@ -3525,9 +3993,12 @@
       "issue": "Winter 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Introduction to Academic Leadership",
@@ -3535,9 +4006,12 @@
       "issue": "Fall 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Introduction to Alternative Career Paths in Economics",
@@ -3545,9 +4019,12 @@
       "issue": "Spring 2008",
       "year": 2008,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Introduction to On Being the Boss",
@@ -3555,9 +4032,12 @@
       "issue": "Winter 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Should You Consider Academic Administration?",
@@ -3565,9 +4045,12 @@
       "issue": "Winter 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "To 10 Tips on How to Be Mentored",
@@ -3575,9 +4058,12 @@
       "issue": "Fall 2008",
       "year": 2008,
       "topic": "Mentoring",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Using Economics Training within a Consortium and Single-sex Setting",
@@ -3585,9 +4071,12 @@
       "issue": "Fall 2008",
       "year": 2008,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "\"Tenure First\" as an Optimizing Strategy",
@@ -3595,9 +4084,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "A Survival Guide to Having Children While On Tenure Track",
@@ -3605,9 +4097,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Conversations with Your Chair",
@@ -3615,9 +4110,12 @@
       "issue": "Winter 2007",
       "year": 2007,
       "topic": "Professional Development",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Discussing Parental Policies with Your Dean of Department Chair",
@@ -3625,9 +4123,12 @@
       "issue": "Winter 2007",
       "year": 2007,
       "topic": "Professional Development",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Economic Careers in Litigation Consulting: The Road Less Traveled",
@@ -3635,9 +4136,12 @@
       "issue": "Fall 2007",
       "year": 2007,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Faculty and Family Commitments",
@@ -3645,9 +4149,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Introduction to Difficult Discussions: How to Approach Conversations with your Chair or Dean",
@@ -3655,9 +4162,12 @@
       "issue": "Winter 2007",
       "year": 2007,
       "topic": "Mentoring",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Introduction to Navigating the Job Market",
@@ -3665,9 +4175,12 @@
       "issue": "Fall 2007",
       "year": 2007,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Introduction to Work and Family in Academia: Striking the Balance",
@@ -3675,9 +4188,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Managing to Have Children on the Tenure Track: A Qualitative Study",
@@ -3685,9 +4201,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Negotiating Senior Job Offers",
@@ -3695,9 +4214,12 @@
       "issue": "Winter 2007",
       "year": 2007,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "Once You Have a Job Offer--What Next?",
@@ -3705,9 +4227,12 @@
       "issue": "Fall 2007",
       "year": 2007,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Tips for Interviewing at Liberal Arts College",
@@ -3715,9 +4240,12 @@
       "issue": "Fall 2007",
       "year": 2007,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Top 10 Ways to Deal with Editors and Referees",
@@ -3725,9 +4253,12 @@
       "issue": "Spring/Summer 2007",
       "year": 2007,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Advice for Economists at Liberal Arts College",
@@ -3735,9 +4266,12 @@
       "issue": "Winter 2006",
       "year": 2006,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Gender-Differences in Graduate School and Job Placement Outcomes for Economics Ph.D.S",
@@ -3745,9 +4279,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Introduction  to Symposium on Reseach Careers Outside of Academia",
@@ -3755,9 +4292,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Introduction to Teaching Economics in Different Environments",
@@ -3765,9 +4305,12 @@
       "issue": "Winter 2006",
       "year": 2006,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Introduction to Where the Pipeline Begins",
@@ -3775,9 +4318,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Junior Achievement: Expanding Young Women's Horizons",
@@ -3785,9 +4331,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "On Teaching Economics to MBA Students",
@@ -3795,9 +4344,12 @@
       "issue": "Winter 2006",
       "year": 2006,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "The Gender Mix of Undergraduate Economics Majors",
@@ -3805,9 +4357,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "The National Council on Economic Education",
@@ -3815,9 +4370,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Top 10 Tips for Junior Faculty on Jumpstarting Your Career",
@@ -3825,9 +4383,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Mentoring",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Top 10 Tips to Make the Web Work for You",
@@ -3835,9 +4396,12 @@
       "issue": "Fall 2006",
       "year": 2006,
       "topic": "Technology",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Technology"
+      ]
     },
     {
       "title": "Working Effectively with Graduate Students",
@@ -3845,9 +4409,12 @@
       "issue": "Winter 2006",
       "year": 2006,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Working as a Research Economist at the Bureau of Labor Statistics",
@@ -3855,9 +4422,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Working as a Research Economist at the Federal Reserve Bank of Philadelphia",
@@ -3865,9 +4435,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Working as a Research Economist at the Rand Corporation",
@@ -3875,9 +4448,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Working as a Research Economist at the Upjohn Institute",
@@ -3885,9 +4461,12 @@
       "issue": "Spring/Summer 2006",
       "year": 2006,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "\" I have the best job in the world\"",
@@ -3895,9 +4474,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "An Old Male Economist's Advice to Young Female Economists",
@@ -3905,9 +4487,12 @@
       "issue": "Winter 2005",
       "year": 2005,
       "topic": "Mentoring",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Carolyn Shaw Bell Biography",
@@ -3915,9 +4500,12 @@
       "issue": "Winter 2005",
       "year": 2005,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Choosing Teaching as a Career",
@@ -3925,9 +4513,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Early Women Leaders of the American Economic Association",
@@ -3935,9 +4526,12 @@
       "issue": "Winter 2005",
       "year": 2005,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Extended Tenure Clock Policies: Theory…and Practice",
@@ -3945,9 +4539,12 @@
       "issue": "Winter 2005",
       "year": 2005,
       "topic": "Work-Life Balance",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Introduction to Academics Outside the Academy",
@@ -3955,9 +4552,12 @@
       "issue": "Spring/Summer 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Introduction to Lecturers, Adjuncts, Instructors: Academic Life on a Track Different from the Tenure Track",
@@ -3965,9 +4565,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Introduction to Women Academic Economists: Early and Late Career Issues",
@@ -3975,9 +4578,12 @@
       "issue": "Winter 2005",
       "year": 2005,
       "topic": "Job Market",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Life as a Lecturer: Trade-Offs Abound",
@@ -3985,9 +4591,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "On Being an Academic Economist on a Corporate Board",
@@ -3995,9 +4604,12 @@
       "issue": "Spring/Summer 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Pushing for a More Humane Society",
@@ -4005,9 +4617,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "So You Want to Be an Adjunct Professor?",
@@ -4015,9 +4630,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "The Business of Economic Consulting",
@@ -4025,9 +4643,12 @@
       "issue": "Spring/Summer 2005",
       "year": 2005,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Top 10 Tips for Developing and Maintaining Networks",
@@ -4035,9 +4656,12 @@
       "issue": "Fall 2005",
       "year": 2005,
       "topic": "Mentoring",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Top 10 Tips for Giving an Effective Presentation",
@@ -4045,9 +4669,12 @@
       "issue": "Spring/Summer 2005",
       "year": 2005,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "What Health Economists Have to Say about Public Health and Tobacco",
@@ -4055,9 +4682,12 @@
       "issue": "Spring/Summer 2005",
       "year": 2005,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "A Brief Guide to the AAUP Salary Data",
@@ -4065,9 +4695,12 @@
       "issue": "Winter 2004",
       "year": 2004,
       "topic": "Promoting Female Economists",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Promoting Female Economists"
+      ]
     },
     {
       "title": "An Academic Economist in the Federal Bureaucracy",
@@ -4075,9 +4708,12 @@
       "issue": "Fall 2004",
       "year": 2004,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "An Overview of Networking Strategies",
@@ -4085,9 +4721,12 @@
       "issue": "Spring/Summer 2004",
       "year": 2004,
       "topic": "Mentoring",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Applying for Research Grants from Liberal Arts College",
@@ -4095,9 +4734,12 @@
       "issue": "Spring/Summer 2004",
       "year": 2004,
       "topic": "Grant Writing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Grant Writing"
+      ]
     },
     {
       "title": "Being an Economist in Washington and California",
@@ -4105,9 +4747,12 @@
       "issue": "Fall 2004",
       "year": 2004,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Blending Academic Life with Government Service",
@@ -4115,9 +4760,12 @@
       "issue": "Fall 2004",
       "year": 2004,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Comment on \"Responding to Discrimination in the Academy\"",
@@ -4125,9 +4773,12 @@
       "issue": "Spring/Summer 2004",
       "year": 2004,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Introduction to Women & Academics",
@@ -4135,9 +4786,10 @@
       "issue": "Winter 2004",
       "year": 2004,
       "topic": "",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": []
     },
     {
       "title": "Introduction to Women in Academe Government and Business: Weaving Together Strands of the Economics Profession",
@@ -4145,9 +4797,12 @@
       "issue": "Fall 2004",
       "year": 2004,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Mentoring: Introduction--CeMENT",
@@ -4155,9 +4810,12 @@
       "issue": "Spring/Summer 2004",
       "year": 2004,
       "topic": "Mentoring",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "The Relationship between Family Responsibilities and Career Outcomes for Women and Men Faculty",
@@ -4165,9 +4823,12 @@
       "issue": "Winter 2004",
       "year": 2004,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Three Perspectives on an Economist's World",
@@ -4175,9 +4836,12 @@
       "issue": "Fall 2004",
       "year": 2004,
       "topic": "Careers in Economics",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Women, Math, and Stereotype Threat",
@@ -4185,9 +4849,12 @@
       "issue": "Winter 2004",
       "year": 2004,
       "topic": "Teaching",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Discrimination and Its Resolution in the Economics Job Market: A Real Life Story",
@@ -4195,9 +4862,12 @@
       "issue": "Fall 2003",
       "year": 2003,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Gender Discrimination at Tenure Time",
@@ -4205,9 +4875,12 @@
       "issue": "Fall 2003",
       "year": 2003,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "How to Get National Science Foundation (NSF) Funding in Economics",
@@ -4215,9 +4888,12 @@
       "issue": "Winter 2003",
       "year": 2003,
       "topic": "Funding",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Introduction to Academic Advice: Top 10 (Easy) Things to Do To Mentor Junior Faculty",
@@ -4225,9 +4901,12 @@
       "issue": "Winter 2003",
       "year": 2003,
       "topic": "Mentoring",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Introduction to Professional Advancement",
@@ -4235,9 +4914,12 @@
       "issue": "Spring/Summer  2003",
       "year": 2003,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Introduction to Responding to Discrimination in the Academy",
@@ -4245,9 +4927,12 @@
       "issue": "Fall 2003",
       "year": 2003,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Looking at Both Sides: Academic and Non-Academic Jobs",
@@ -4255,9 +4940,12 @@
       "issue": "Spring/Summer  2003",
       "year": 2003,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "On Being Placement Director in a Buyer's Market",
@@ -4265,9 +4953,12 @@
       "issue": "Spring/Summer  2003",
       "year": 2003,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Preparing for Ethical Challenges",
@@ -4275,9 +4966,12 @@
       "issue": "Winter 2003",
       "year": 2003,
       "topic": "Ethics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Ethics"
+      ]
     },
     {
       "title": "Publishing in Economics Journals: Trends Young Economists Should Be Aware Of",
@@ -4285,9 +4979,12 @@
       "issue": "Spring/Summer  2003",
       "year": 2003,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Workplace Bullying, Women, and the Knowledge Economy",
@@ -4295,9 +4992,12 @@
       "issue": "Fall 2003",
       "year": 2003,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "An Interview with the 2001 Carolyn Shaw Bell Award Recipient, Eva Mueller",
@@ -4305,9 +5005,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Co-Editor Introduction",
@@ -4315,9 +5018,12 @@
       "issue": "Winter 2002",
       "year": 2002,
       "topic": "The Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "The Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Funding Opportunities for Women Economists at the Russell Sage Foundation",
@@ -4325,9 +5031,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Funding",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Funding Opportunities for Women Graduate Students in Economics: Program in Applied Economics",
@@ -4335,9 +5044,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Funding",
-      "audience": "Graduate Students",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "How the Instituite for Women's Policy Research Contributes to Public Policy Development",
@@ -4345,9 +5057,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Introduction on Mentoring",
@@ -4355,9 +5070,12 @@
       "issue": "Fall 2002",
       "year": 2002,
       "topic": "Mentoring",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Introduction to Think Tanks and Funding Sources",
@@ -4365,9 +5083,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Legal Issues in the Workplace: Gender Pay Equity",
@@ -4375,9 +5096,12 @@
       "issue": "Fall 2002",
       "year": 2002,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Legal Issues in the Workplace: Sexual Harrassment",
@@ -4385,9 +5109,12 @@
       "issue": "Fall 2002",
       "year": 2002,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Means, Motive, and Opportunity:The Role of Networks and Gender in the Decision to Publish and Coauthor in Economics",
@@ -4395,9 +5122,12 @@
       "issue": "Winter 2002",
       "year": 2002,
       "topic": "Research",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Mentoring and Women in Non-Academic Careers",
@@ -4405,9 +5135,12 @@
       "issue": "Fall 2002",
       "year": 2002,
       "topic": "Mentoring",
-      "audience": "Non-Academia",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Non-Academia",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "Notes from Working at a Private Foundation",
@@ -4415,9 +5148,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Funding",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "The Center for Global Development: Its Origins and Future Work",
@@ -4425,9 +5161,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "The Economist as Detective",
@@ -4435,9 +5174,12 @@
       "issue": "Spring 2002",
       "year": 2002,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "The Status of Women in Economics during the Nineties: One step forward, Two steps back",
@@ -4445,9 +5187,12 @@
       "issue": "Winter 2002",
       "year": 2002,
       "topic": "The Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "The Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "The Status of Women in Economics: A Comment",
@@ -4455,9 +5200,12 @@
       "issue": "Winter 2002",
       "year": 2002,
       "topic": "The Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "The Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "Women in the Economics Pipeline: How do we compare to other disciplines?",
@@ -4465,9 +5213,12 @@
       "issue": "Winter 2002",
       "year": 2002,
       "topic": "The Status of Women in the Economics Profession",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "The Status of Women in the Economics Profession"
+      ]
     },
     {
       "title": "A Career Built on Serendipity: Forty Years of Zigs and Zags",
@@ -4475,9 +5226,12 @@
       "issue": "Winter 2001",
       "year": 2001,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Canadian Women Economists Network",
@@ -4485,9 +5239,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Committee on Women in Agricultural Economics",
@@ -4495,9 +5252,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "From Manhattan to Manhattanville",
@@ -4505,9 +5265,12 @@
       "issue": "Winter 2001",
       "year": 2001,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "In Memory of Leslie Whittington",
@@ -4515,9 +5278,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "International Association for Feminist Economics",
@@ -4525,9 +5291,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Introduction to Career Paths of Women Entering the Economics Profession During the 1970s",
@@ -4535,9 +5304,12 @@
       "issue": "Winter 2001",
       "year": 2001,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Introduction to Women's Organizations in Economics and Related Fields",
@@ -4545,9 +5317,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Ms. Mentor Orates To Economists",
@@ -4555,9 +5330,12 @@
       "issue": "Spring/Summer  2001",
       "year": 2001,
       "topic": "Mentoring",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "One Approach to Balancing Work and Family",
@@ -4565,9 +5343,12 @@
       "issue": "Spring/Summer  2001",
       "year": 2001,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Reflections from Mentors and Balancing Work and Family",
@@ -4575,9 +5356,12 @@
       "issue": "Spring/Summer 2001",
       "year": 2001,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "Royal Economic Society's Committee on Women",
@@ -4585,9 +5369,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Some Insights Regarding Success in the Economics Profession",
@@ -4595,9 +5382,12 @@
       "issue": "Winter 2001",
       "year": 2001,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "The CCOFFE Experience: Reflections from a Mentor and a Mentee",
@@ -4605,9 +5395,12 @@
       "issue": "Spring/Summer  2001",
       "year": 2001,
       "topic": "History of CSWEP",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Tips on Dual, Not Dueling, Careers",
@@ -4615,9 +5408,12 @@
       "issue": "Spring/Summer  2001",
       "year": 2001,
       "topic": "Dual Careers",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Dual Careers"
+      ]
     },
     {
       "title": "Women's Networking in the Financial Management Association",
@@ -4625,9 +5421,12 @@
       "issue": "Fall 2001",
       "year": 2001,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "A Sincere and True Account of the Unexpected Delivery of Extraordinary Windfall Treasure",
@@ -4635,9 +5434,12 @@
       "issue": "Winter 2000",
       "year": 2000,
       "topic": "Funding",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Economic Research Funding at the National Science Foundation",
@@ -4645,9 +5447,12 @@
       "issue": "Fall 2000",
       "year": 2000,
       "topic": "Funding",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Economics and Law",
@@ -4655,9 +5460,12 @@
       "issue": "Winter 2000",
       "year": 2000,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Economics, Crime and Criminal Justice",
@@ -4665,9 +5473,12 @@
       "issue": "Winter 2000",
       "year": 2000,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Interview Articles",
@@ -4675,9 +5486,12 @@
       "issue": "Spring/Summer 2000",
       "year": 2000,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Interview with Carol Carson, Director of BEA",
@@ -4685,9 +5499,12 @@
       "issue": "Spring/Summer 2000",
       "year": 2000,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Interview with Janet Norwood, Commissioner of BLS",
@@ -4695,9 +5512,12 @@
       "issue": "Spring/Summer 2000",
       "year": 2000,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Interview with Martha Farnsworth Riche, Director of Census Bureau",
@@ -4705,9 +5525,12 @@
       "issue": "Spring/Summer 2000",
       "year": 2000,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Law and Economics",
@@ -4715,9 +5538,12 @@
       "issue": "Winter 2000",
       "year": 2000,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Panel on Research and Promoting Research",
@@ -4725,9 +5551,12 @@
       "issue": "Fall 2000",
       "year": 2000,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Panel on the Research Climate in Economics Institutes",
@@ -4735,9 +5564,12 @@
       "issue": "Fall 2000",
       "year": 2000,
       "topic": "Professional Development",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "RAND: Research for Policy and Decision Making",
@@ -4745,9 +5577,12 @@
       "issue": "Fall 2000",
       "year": 2000,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "The William Davidson Institute: Promoting Research on and Assistance to Economies in Transition",
@@ -4755,9 +5590,12 @@
       "issue": "Fall 2000",
       "year": 2000,
       "topic": "Research",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Administration as a Career Path for Economists",
@@ -4765,9 +5603,12 @@
       "issue": "Fall 1999",
       "year": 1999,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Behavioral Economics",
@@ -4775,9 +5616,12 @@
       "issue": "Winter 1999",
       "year": 1999,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Being Chair",
@@ -4785,9 +5629,12 @@
       "issue": "Spring  1999",
       "year": 1999,
       "topic": "Professional Development",
-      "audience": "Senior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "My Experience with Tenure Through Teaching at the University of Kentucky",
@@ -4795,9 +5642,12 @@
       "issue": "Fall 1999",
       "year": 1999,
       "topic": "Tenure & Promotion",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Negotiation Advice for Women: How Not to Lose Your Skirt",
@@ -4805,9 +5655,12 @@
       "issue": "Winter 1999",
       "year": 1999,
       "topic": "Promoting Female Economists",
-      "audience": "Female Economists",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Female Economists",
+      "topics": [
+        "Promoting Female Economists"
+      ]
     },
     {
       "title": "Other-Regarding Preferences in Economics",
@@ -4815,9 +5668,12 @@
       "issue": "Winter 1999",
       "year": 1999,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Report From Sweden: The Nobel Award Ceremonies",
@@ -4825,9 +5681,12 @@
       "issue": "Spring  1999",
       "year": 1999,
       "topic": "General Interest",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "General Interest"
+      ]
     },
     {
       "title": "Social Policy Research in the Private Sector",
@@ -4835,9 +5694,12 @@
       "issue": "Spring  1999",
       "year": 1999,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "Social Policy and Research",
@@ -4845,9 +5707,12 @@
       "issue": "Spring 1999",
       "year": 1999,
       "topic": "Economics Fields",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Economics Fields"
+      ]
     },
     {
       "title": "The Benefits and Costs of Team Teaching: Experience from an Interdisciplinary Collaboration",
@@ -4855,9 +5720,12 @@
       "issue": "Fall 1999",
       "year": 1999,
       "topic": "Teaching",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "The Life of a Pedagogue in a Research Institute",
@@ -4865,9 +5733,12 @@
       "issue": "Fall 1999",
       "year": 1999,
       "topic": "Careers in Economics",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Careers in Economics"
+      ]
     },
     {
       "title": "Using Experiments in the Classroom",
@@ -4875,9 +5746,12 @@
       "issue": "Winter 1999",
       "year": 1999,
       "topic": "Teaching",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Writing Reviews for the Economics Program at the National Science Foundation that will Make Your Program Officer Love You",
@@ -4885,9 +5759,12 @@
       "issue": "Winter 1999",
       "year": 1999,
       "topic": "Grant Writing",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Grant Writing"
+      ]
     },
     {
       "title": "Maria Edgeworth and Classical Political Economy",
@@ -4895,9 +5772,12 @@
       "issue": "Winter 1998",
       "year": 1998,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Winter1998.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Maternity Leave",
@@ -4905,9 +5785,12 @@
       "issue": "Winter 1998",
       "year": 1998,
       "topic": "Work-Life Balance",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Winter1998.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "On Becoming a Member of a Corporate Board of Directors",
@@ -4915,9 +5798,12 @@
       "issue": "Fall  1998",
       "year": 1998,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Opportunities from the National Science Foundation",
@@ -4925,9 +5811,12 @@
       "issue": "Spring/Summer 1998",
       "year": 1998,
       "topic": "Funding",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Funding"
+      ]
     },
     {
       "title": "Strategies for a Successful Start at a Teaching College",
@@ -4935,9 +5824,12 @@
       "issue": "Fall  1998",
       "year": 1998,
       "topic": "Teaching",
-      "audience": "Junior Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "The \"E-Mentor:\" A World Wide Web List of Resources for the Professional Development of Academic Economists",
@@ -4945,9 +5837,12 @@
       "issue": "Fall  1998",
       "year": 1998,
       "topic": "Professional Development",
-      "audience": "Faculty",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Professional Development"
+      ]
     },
     {
       "title": "The Roles of Traditional Mentoring and Team Mentoring",
@@ -4955,9 +5850,12 @@
       "issue": "Winter 1998",
       "year": 1998,
       "topic": "Mentoring",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Winter1998.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Mentoring"
+      ]
     },
     {
       "title": "The Royal Economic Society Women's Committee",
@@ -4965,9 +5863,12 @@
       "issue": "Spring/Summer 1998",
       "year": 1998,
       "topic": "Women Economists Assocations",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women Economists Assocations"
+      ]
     },
     {
       "title": "Women's Contributions to Environmental Economics",
@@ -4975,9 +5876,12 @@
       "issue": "Spring/Summer 1998",
       "year": 1998,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Women's Contributions to Public Economics",
@@ -4985,9 +5889,12 @@
       "issue": "Fall  1998",
       "year": 1998,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "A Report Praises 29 Colleges for \"Family Friendly\" Policies",
@@ -4995,9 +5902,12 @@
       "issue": "Spring 1997",
       "year": 1997,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Spring_1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "CSWEP in Retrospect",
@@ -5005,9 +5915,12 @@
       "issue": "Fall  1997",
       "year": 1997,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "CSWEP: Past, Present and Future",
@@ -5015,9 +5928,12 @@
       "issue": "Fall  1997",
       "year": 1997,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Combatting Role Prejudice and Sex Discrimination",
@@ -5025,9 +5941,12 @@
       "issue": "Fall 1997",
       "year": 1997,
       "topic": "Discrimination & Sexual Harassment",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Discrimination & Sexual Harassment"
+      ]
     },
     {
       "title": "Confessions of a Late Starter",
@@ -5035,9 +5954,12 @@
       "issue": "Winter 1997",
       "year": 1997,
       "topic": "Women in Economics",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Economics and the World Wide Web: Information, Teaching Resources, and Women's Issues",
@@ -5045,9 +5967,12 @@
       "issue": "Spring 1997",
       "year": 1997,
       "topic": "Teaching",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Spring_1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Enhancing the Attractiveness of Research to Female Faculty",
@@ -5055,9 +5980,12 @@
       "issue": "Winter 1997",
       "year": 1997,
       "topic": "Promoting Female Economists",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Promoting Female Economists"
+      ]
     },
     {
       "title": "How to Write an Abstract",
@@ -5065,9 +5993,12 @@
       "issue": "Winter 1997",
       "year": 1997,
       "topic": "Research",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Research"
+      ]
     },
     {
       "title": "Introduction",
@@ -5075,9 +6006,12 @@
       "issue": "Fall  1997",
       "year": 1997,
       "topic": "History of CSWEP",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "History of CSWEP"
+      ]
     },
     {
       "title": "Life as a Newspaper Reporter",
@@ -5085,9 +6019,12 @@
       "issue": "Winter 1997",
       "year": 1997,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Publishing Realities",
@@ -5095,9 +6032,12 @@
       "issue": "Spring 1997",
       "year": 1997,
       "topic": "Publishing",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Spring_1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Women in Academy",
@@ -5105,9 +6045,12 @@
       "issue": "Fall  1997",
       "year": 1997,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Women in Business",
@@ -5115,9 +6058,12 @@
       "issue": "Fall  1997",
       "year": 1997,
       "topic": "Women in Economics",
-      "audience": "General Interest",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Fall1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "General Interest",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "Women's Contributions to Development Economics",
@@ -5125,9 +6071,12 @@
       "issue": "Spring 1997",
       "year": 1997,
       "topic": "Women in Economics",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Spring_1997.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Women in Economics"
+      ]
     },
     {
       "title": "A Guide to the Academic Job Market for Sudents",
@@ -5135,9 +6084,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Active Learning in the Economics Classroom",
@@ -5145,9 +6097,12 @@
       "issue": "Fall 1996",
       "year": 1996,
       "topic": "Teaching",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Teaching"
+      ]
     },
     {
       "title": "Collegiality",
@@ -5155,9 +6110,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Finding Senior Academic Jobs",
@@ -5165,9 +6123,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Senior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Senior Faculty",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Grantwriting Guidelines in the Social and Behavioral Sciences",
@@ -5175,9 +6136,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Grant Writing",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Grant Writing"
+      ]
     },
     {
       "title": "Guidelines for Being a Discussant",
@@ -5185,9 +6149,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "How Note to Perish: Tips for Submitting Articles From an Ex-Editor's Point of View",
@@ -5195,9 +6162,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "How to Survive a Seminar Presentation",
@@ -5205,9 +6175,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Mentoring and Being Mentored",
@@ -5215,9 +6188,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Publish or Perish: The Perils of Pauline",
@@ -5225,9 +6201,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "Responding to Referees and Editors",
@@ -5235,9 +6214,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Publishing",
-      "audience": "Junior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Publishing"
+      ]
     },
     {
       "title": "Taking Little Ones on Sabbatical",
@@ -5245,9 +6227,12 @@
       "issue": "Fall 1996",
       "year": 1996,
       "topic": "Work-Life Balance",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Work-Life Balance"
+      ]
     },
     {
       "title": "The Joint Job-Hunting Problem",
@@ -5255,9 +6240,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "The Process of Earning Tenure at a Small Liberal Arts Institution",
@@ -5265,9 +6253,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "The Year of the Tenure Decision: Strategies for Survival",
@@ -5275,9 +6266,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Tenure & Promotion",
-      "audience": "Junior Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Junior Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Translating a CV to a Resume",
@@ -5285,9 +6279,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Job Market",
-      "audience": "Graduate Students",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Graduate Students",
+      "topics": [
+        "Job Market"
+      ]
     },
     {
       "title": "What do you do if you think you have been mistreated?",
@@ -5295,9 +6292,12 @@
       "issue": "Special Reprint 1996",
       "year": 1996,
       "topic": "Tenure & Promotion",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/CSWEP_nsltr_Reprint2_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Tenure & Promotion"
+      ]
     },
     {
       "title": "Women in International Economics: Research Scholarship and Policy Debate",
@@ -5305,9 +6305,12 @@
       "issue": "Fall 1996",
       "year": 1996,
       "topic": "Women in Economics",
-      "audience": "Faculty",
       "url": "https://www.aeaweb.org/committees/cswep/newsletters/Fall_1996.pdf",
-      "source": "excel"
+      "source": "excel",
+      "audience": "Faculty",
+      "topics": [
+        "Women in Economics"
+      ]
     }
   ],
   "filters": {

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSWEP News Archives | American Economic Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Filter row */
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .filter-select {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            min-width: 150px;
+            background: white;
+        }
+        .clear-filters {
+            background: none;
+            border: none;
+            color: #003366;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.9rem;
+        }
+        .clear-filters:hover {
+            color: #0055a5;
+        }
+
+        /* Articles nested under newsletters */
+        .newsletter-articles {
+            margin: 8px 0 5px 20px;
+            padding-left: 15px;
+            border-left: 2px solid #e0e0e0;
+        }
+        .newsletter-articles.collapsed {
+            display: none;
+        }
+        .article-entry {
+            padding: 6px 0;
+            font-size: 0.9rem;
+        }
+        .article-entry:not(:last-child) {
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .article-entry a {
+            color: #0056b3;
+            font-weight: 400;
+        }
+        .article-entry a:hover {
+            text-decoration: underline;
+        }
+        .article-author {
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .article-topic {
+            background: #e8f0f8;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            color: #003366;
+            margin-left: 8px;
+        }
+        .toggle-articles {
+            background: none;
+            border: none;
+            color: #003366;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 2px 6px;
+            margin-left: 10px;
+        }
+        .toggle-articles:hover {
+            text-decoration: underline;
+        }
+        .article-count-badge {
+            background: #e8f0f8;
+            color: #003366;
+            font-size: 0.75rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+        .no-results {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        .cite-btn {
+            background: none;
+            border: none;
+            color: #999;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 2px 4px;
+            margin-left: 6px;
+        }
+        .cite-btn:hover {
+            color: #666;
+            text-decoration: underline;
+        }
+        .citation-box {
+            background: #f8f9fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 8px 12px;
+            margin: 8px 0 4px 0;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .citation-text {
+            flex: 1;
+            color: #333;
+            font-family: Georgia, serif;
+            user-select: all;
+        }
+        .citation-copy-btn {
+            background: #003366;
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            white-space: nowrap;
+        }
+        .citation-copy-btn:hover {
+            background: #0055a5;
+        }
+        .citation-copy-btn.copied {
+            background: #28a745;
+        }
+        /* Load more functionality */
+        .year-section.hidden-year {
+            display: none;
+        }
+        .load-more-container {
+            text-align: center;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        .load-more-btn {
+            background: #003366;
+            color: white;
+            border: none;
+            padding: 0.75rem 2rem;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .load-more-btn:hover {
+            background: #0055a5;
+        }
+        .load-more-info {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="https://www.aeaweb.org" class="logo-text">American Economic Association</a>
+            </div>
+            <nav class="utility-nav">
+                <a href="https://www.aeaweb.org/membership">Membership</a>
+                <a href="https://www.aeaweb.org/about-aea">About AEA</a>
+                <a href="https://www.aeaweb.org/login">Log In</a>
+            </nav>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="https://www.aeaweb.org/journals">Journals</a></li>
+                <li><a href="https://www.aeaweb.org/conference">Annual Meeting</a></li>
+                <li><a href="https://www.aeaweb.org/resources/students/careers">Careers</a></li>
+                <li><a href="https://www.aeaweb.org/resources">Resources</a></li>
+                <li><a href="https://www.aeaweb.org/econlit">EconLit</a></li>
+                <li><a href="https://www.aeaweb.org/about-aea/committees">Committees</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-inner">
+            <a href="https://www.aeaweb.org">Home</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea">About the AEA</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees">AEA Committees</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep">CSWEP</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events">News and Events</a>
+            <span>&gt;</span>
+            <a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events/newsletters">Newsletters</a>
+            <span>&gt;</span>
+            Archives
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1 class="page-title">CSWEP News Archives</h1>
+
+        <p class="intro-text">
+            Browse the complete archive of CSWEP News from {{MIN_YEAR}}-{{MAX_YEAR}}. Individual articles appear under each newsletter issue.
+            <a href="https://docs.google.com/viewer?url=https://www.aeaweb.org/content/file?id=594">Download the Excel index</a>.
+        </p>
+
+        <!-- Search and Filters -->
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Search newsletters and articles...">
+            <div class="filter-row">
+                <select id="topic-filter" class="filter-select">
+                    <option value="">All Topics</option>
+                </select>
+                <select id="year-filter" class="filter-select">
+                    <option value="">All Years</option>
+                </select>
+                <button id="clear-filters" class="clear-filters">Clear filters</button>
+            </div>
+            <span class="search-stats">Showing <span id="visible-count">0</span> newsletters</span>
+        </div>
+
+            <div class="newsletter-list">
+<!-- NEWSLETTER_CONTENT -->
+            </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-nav">
+                <div class="footer-section">
+                    <h4>About AEA</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/about-aea">About</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees">Committees</a></li>
+                        <li><a href="https://www.aeaweb.org/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/journals">Journals</a></li>
+                        <li><a href="https://www.aeaweb.org/econlit">EconLit</a></li>
+                        <li><a href="https://www.aeaweb.org/resources/students/careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>CSWEP</h4>
+                    <ul>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep">About CSWEP</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep/news-and-events">News & Events</a></li>
+                        <li><a href="https://www.aeaweb.org/about-aea/committees/cswep/programs">Programs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{MAX_YEAR}} American Economic Association. All rights reserved.</p>
+                <p>This is a local archive. Visit <a href="https://www.aeaweb.org">aeaweb.org</a> for the official site.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let articlesData = null;
+        let articlesByIssue = {};
+
+        // Normalize issue name for matching
+        function normalizeIssue(issue) {
+            return issue.toLowerCase()
+                .replace(/\s+/g, ' ')
+                .replace('spring/summer', 'spring')
+                .replace('springsummer', 'spring')
+                .trim();
+        }
+
+        // Group articles by issue
+        function groupArticlesByIssue() {
+            articlesByIssue = {};
+            if (!articlesData) return;
+            articlesData.articles.forEach(article => {
+                const key = normalizeIssue(article.issue);
+                if (!articlesByIssue[key]) articlesByIssue[key] = [];
+                articlesByIssue[key].push(article);
+            });
+        }
+
+        // Build article URL
+        function buildUrl(a) {
+            if (!a.url) return '#';
+            if (a.url.startsWith('http')) return a.url;
+            if (a.url.startsWith('/')) return 'https://www.aeaweb.org' + a.url;
+            return '#';
+        }
+
+        // Build citation text
+        function buildCitation(issueText, focusTopic, url) {
+            let citation = `CSWEP News, ${issueText}`;
+            if (focusTopic) {
+                citation += `: ${focusTopic}`;
+            }
+            citation += `. American Economic Association. ${url}`;
+            return citation;
+        }
+
+        // Toggle article citation display
+        function toggleArticleCitation(entry, article) {
+            const existing = entry.querySelector('.citation-box');
+            if (existing) {
+                existing.remove();
+                return;
+            }
+
+            // Build article citation: Author. "Title." CSWEP News, Issue. AEA. URL
+            let citation = '';
+            if (article.author) {
+                citation += `${article.author}. `;
+            }
+            citation += `"${article.title}." CSWEP News, ${article.issue}. American Economic Association. ${buildUrl(article)}`;
+
+            const box = document.createElement('div');
+            box.className = 'citation-box';
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'citation-text';
+            textSpan.textContent = citation;
+
+            const copyBtn = document.createElement('button');
+            copyBtn.className = 'citation-copy-btn';
+            copyBtn.textContent = 'Copy';
+            copyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navigator.clipboard.writeText(citation).then(() => {
+                    copyBtn.textContent = 'Copied!';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy';
+                        copyBtn.classList.remove('copied');
+                    }, 1500);
+                });
+            });
+
+            box.appendChild(textSpan);
+            box.appendChild(copyBtn);
+            entry.appendChild(box);
+        }
+
+        // Toggle citation display
+        function toggleCitation(item, issueText, focusTopic, url) {
+            const existing = item.querySelector('.citation-box');
+            if (existing) {
+                existing.remove();
+                return;
+            }
+
+            const citation = buildCitation(issueText, focusTopic, url);
+
+            const box = document.createElement('div');
+            box.className = 'citation-box';
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'citation-text';
+            textSpan.textContent = citation;
+
+            const copyBtn = document.createElement('button');
+            copyBtn.className = 'citation-copy-btn';
+            copyBtn.textContent = 'Copy';
+            copyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                navigator.clipboard.writeText(citation).then(() => {
+                    copyBtn.textContent = 'Copied!';
+                    copyBtn.classList.add('copied');
+                    setTimeout(() => {
+                        copyBtn.textContent = 'Copy';
+                        copyBtn.classList.remove('copied');
+                    }, 1500);
+                });
+            });
+
+            box.appendChild(textSpan);
+            box.appendChild(copyBtn);
+
+            // Insert before articles section if present, otherwise at end
+            const articlesSection = item.querySelector('.newsletter-articles');
+            if (articlesSection) {
+                articlesSection.before(box);
+            } else {
+                item.appendChild(box);
+            }
+        }
+
+        // Add cite buttons to newsletter items
+        function addCiteButtons() {
+            document.querySelectorAll('.newsletter-item').forEach(item => {
+                // Check for issue cite button (not inside articles section)
+                const existingBtn = item.querySelector(':scope > .cite-btn');
+                if (existingBtn) return;
+
+                const linkEl = item.querySelector('.newsletter-link');
+                if (!linkEl) return;
+
+                const issueText = linkEl.textContent.trim();
+                const url = linkEl.href;
+
+                const focusEl = item.querySelector('.newsletter-focus');
+                let focusTopic = '';
+                if (focusEl) {
+                    focusTopic = focusEl.textContent.replace(/^-\s*/, '').replace(/^Focus on\s*/i, '').trim();
+                }
+
+                const btn = document.createElement('button');
+                btn.className = 'cite-btn';
+                btn.textContent = '[Cite]';
+                btn.title = 'Show citation';
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    toggleCitation(item, issueText, focusTopic, url);
+                });
+
+                // Insert after focus title if present, otherwise after link
+                if (focusEl) {
+                    focusEl.after(btn);
+                } else {
+                    linkEl.after(btn);
+                }
+            });
+        }
+
+        // Inject articles under each newsletter
+        function injectArticles() {
+            document.querySelectorAll('.newsletter-item').forEach(item => {
+                // Remove existing article sections
+                const existing = item.querySelector('.newsletter-articles');
+                if (existing) existing.remove();
+
+                // Get newsletter issue text
+                const linkEl = item.querySelector('.newsletter-link');
+                if (!linkEl) return;
+                const issueText = linkEl.textContent.trim();
+                const key = normalizeIssue(issueText);
+
+                // Find matching articles
+                const articles = articlesByIssue[key] || [];
+                if (articles.length === 0) return;
+
+                // Create article container
+                const container = document.createElement('div');
+                container.className = 'newsletter-articles';
+
+                articles.forEach(a => {
+                    const entry = document.createElement('div');
+                    entry.className = 'article-entry';
+                    // Store topics array as JSON for filtering
+                    entry.dataset.topics = JSON.stringify(a.topics || []);
+                    entry.dataset.title = a.title.toLowerCase();
+                    entry.dataset.author = (a.author || '').toLowerCase();
+
+                    let html = `<a href="${buildUrl(a)}" target="_blank">${a.title}</a>`;
+                    if (a.author) html += ` <span class="article-author">— ${a.author}</span>`;
+                    // Display individual topic badges
+                    if (a.topics && a.topics.length > 0) {
+                        a.topics.forEach(t => {
+                            html += `<span class="article-topic">${t}</span>`;
+                        });
+                    }
+                    entry.innerHTML = html;
+
+                    // Add cite button for article
+                    const citeBtn = document.createElement('button');
+                    citeBtn.className = 'cite-btn';
+                    citeBtn.textContent = '[Cite]';
+                    citeBtn.title = 'Show citation';
+                    citeBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        toggleArticleCitation(entry, a);
+                    });
+                    entry.appendChild(citeBtn);
+
+                    container.appendChild(entry);
+                });
+
+                // Add count badge to newsletter item
+                const badge = document.createElement('span');
+                badge.className = 'article-count-badge';
+                badge.textContent = `${articles.length} article${articles.length > 1 ? 's' : ''}`;
+
+                // Insert after existing badges/spans
+                const editorSpan = item.querySelector('.newsletter-editor');
+                if (editorSpan) {
+                    editorSpan.after(badge);
+                } else {
+                    item.appendChild(badge);
+                }
+
+                item.appendChild(container);
+            });
+        }
+
+        // Initialize filters
+        function initFilters() {
+            const topicSelect = document.getElementById('topic-filter');
+            const yearSelect = document.getElementById('year-filter');
+
+            if (articlesData && articlesData.filters) {
+                articlesData.filters.topics.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t;
+                    opt.textContent = t;
+                    topicSelect.appendChild(opt);
+                });
+            }
+
+            // Years from max down to min
+            for (let y = {{MAX_YEAR}}; y >= {{MIN_YEAR}}; y--) {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y;
+                yearSelect.appendChild(opt);
+            }
+        }
+
+        let allYearsLoaded = false; // Track if user clicked "Load more"
+
+        // Filter newsletters and articles
+        function applyFilters() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+            const topicFilter = document.getElementById('topic-filter').value;
+            const yearFilter = document.getElementById('year-filter').value;
+            const hasActiveFilter = searchTerm || topicFilter || yearFilter;
+
+            const newsletters = document.querySelectorAll('.newsletter-item');
+            const yearSections = document.querySelectorAll('.year-section');
+            let visibleCount = 0;
+
+            newsletters.forEach(item => {
+                const yearSection = item.closest('.year-section');
+                const newsletterText = item.textContent.toLowerCase();
+                const articles = item.querySelectorAll('.article-entry');
+
+                // Check if newsletter matches year filter
+                const yearHeading = yearSection?.querySelector('.year-heading')?.textContent;
+                const matchesYear = !yearFilter || yearHeading === yearFilter;
+
+                // Check newsletter text matches search
+                let newsletterMatchesSearch = !searchTerm || newsletterText.includes(searchTerm);
+
+                // Check if any article matches filters
+                let hasMatchingArticle = false;
+                articles.forEach(entry => {
+                    const title = entry.dataset.title || '';
+                    const author = entry.dataset.author || '';
+                    let topics = [];
+                    try {
+                        topics = JSON.parse(entry.dataset.topics || '[]');
+                    } catch (e) {
+                        topics = [];
+                    }
+
+                    const matchesTopic = !topicFilter || topics.includes(topicFilter);
+                    const matchesSearch = !searchTerm || title.includes(searchTerm) || author.includes(searchTerm);
+
+                    if (matchesTopic && matchesSearch) {
+                        entry.style.display = '';
+                        hasMatchingArticle = true;
+                    } else {
+                        entry.style.display = 'none';
+                    }
+                });
+
+                // Determine if newsletter should show
+                let showNewsletter = false;
+                if (hasActiveFilter) {
+                    // Topic filter requires matching articles
+                    // Search can match newsletter text OR articles
+                    if (topicFilter) {
+                        // Must have article matching topic (and search if present)
+                        showNewsletter = matchesYear && hasMatchingArticle;
+                    } else if (searchTerm) {
+                        // Search matches newsletter text or has matching articles
+                        showNewsletter = matchesYear && (newsletterMatchesSearch || hasMatchingArticle);
+                    } else {
+                        // Year filter only
+                        showNewsletter = matchesYear;
+                    }
+                } else {
+                    // No filter: show all
+                    showNewsletter = true;
+                }
+
+                item.style.display = showNewsletter ? '' : 'none';
+
+                // Show/hide article container
+                const articleContainer = item.querySelector('.newsletter-articles');
+                if (articleContainer) {
+                    articleContainer.style.display = (topicFilter && !hasMatchingArticle) ? 'none' : '';
+                }
+
+                if (showNewsletter) visibleCount++;
+            });
+
+            // Show/hide year sections
+            yearSections.forEach(section => {
+                const isOriginallyHidden = section.dataset.hiddenYear === 'true';
+                const hasVisibleNewsletters = Array.from(section.querySelectorAll('.newsletter-item'))
+                    .some(item => item.style.display !== 'none');
+
+                if (hasActiveFilter) {
+                    // With filter: show section if it has visible newsletters
+                    section.classList.remove('hidden-year');
+                    section.style.display = hasVisibleNewsletters ? '' : 'none';
+                } else {
+                    // No filter: respect original hidden state
+                    if (isOriginallyHidden && !allYearsLoaded) {
+                        section.classList.add('hidden-year');
+                        section.style.display = '';
+                    } else {
+                        section.classList.remove('hidden-year');
+                        section.style.display = hasVisibleNewsletters ? '' : 'none';
+                    }
+                }
+            });
+
+            // Show/hide "Load more" button
+            const loadMoreContainer = document.getElementById('load-more-container');
+            loadMoreContainer.style.display = (allYearsLoaded || hasActiveFilter) ? 'none' : '';
+
+            document.getElementById('visible-count').textContent = visibleCount;
+        }
+
+        // Load articles and initialize
+        async function init() {
+            try {
+                const response = await fetch('articles.json?v=' + Date.now());
+                articlesData = await response.json();
+                groupArticlesByIssue();
+                injectArticles();
+                addCiteButtons();
+                initFilters();
+            } catch (e) {
+                console.error('Error loading articles:', e);
+                addCiteButtons();
+                initFilters();
+            }
+
+            // Mark originally hidden sections with data attribute
+            document.querySelectorAll('.year-section.hidden-year').forEach(section => {
+                section.dataset.hiddenYear = 'true';
+            });
+
+            // Set initial count (only visible sections)
+            const visibleNewsletters = document.querySelectorAll('.year-section:not(.hidden-year) .newsletter-item');
+            document.getElementById('visible-count').textContent = visibleNewsletters.length;
+
+            // Event listeners
+            document.getElementById('search-input').addEventListener('input', applyFilters);
+            document.getElementById('topic-filter').addEventListener('change', applyFilters);
+            document.getElementById('year-filter').addEventListener('change', applyFilters);
+            document.getElementById('clear-filters').addEventListener('click', () => {
+                document.getElementById('search-input').value = '';
+                document.getElementById('topic-filter').value = '';
+                document.getElementById('year-filter').value = '';
+                applyFilters();
+            });
+
+            // Load more button
+            document.getElementById('load-more-btn').addEventListener('click', () => {
+                allYearsLoaded = true;
+                document.querySelectorAll('.year-section.hidden-year').forEach(section => {
+                    section.classList.remove('hidden-year');
+                });
+                document.getElementById('load-more-container').style.display = 'none';
+                applyFilters(); // Reapply filters to update count
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>
