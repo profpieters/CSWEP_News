@@ -45,29 +45,16 @@ def read_articles(xlsx_path):
         if not title:
             continue
 
-        # Parse topics: prefer 'topics' column (comma-separated), fall back to 'topic'
+        # Parse topics column (comma-separated string)
         topics_str = str(row['topics']).strip() if pd.notna(row.get('topics')) else ''
-        topic_str = str(row['topic']).strip() if pd.notna(row.get('topic')) else ''
-
-        if topics_str:
-            topics_list = [t.strip() for t in topics_str.split(',') if t.strip()]
-        elif topic_str:
-            topics_list = [topic_str]
-        else:
-            topics_list = []
-
-        # Reconstruct topic as comma-joined string
-        topic_joined = ', '.join(topics_list)
+        topics_list = [t.strip() for t in topics_str.split(',') if t.strip()]
 
         articles.append({
             'title': title,
             'author': str(row['author']).strip() if pd.notna(row['author']) else '',
             'issue': str(row['issue']).strip() if pd.notna(row['issue']) else '',
             'year': int(row['year']) if pd.notna(row['year']) else 0,
-            'topic': topic_joined,
             'url': str(row['url']).strip() if pd.notna(row['url']) and str(row['url']).startswith('http') else '',
-            'source': str(row['source']).strip() if pd.notna(row.get('source')) else '',
-            'audience': str(row['audience']).strip() if pd.notna(row.get('audience')) else '',
             'topics': topics_list,
         })
 
@@ -149,25 +136,17 @@ def generate_articles_json(articles):
     # Collect unique topics from the topics arrays
     all_topics = set()
     for a in articles:
-        if a['topics']:
-            all_topics.update(a['topics'])
-        elif a['topic']:
-            all_topics.add(a['topic'])
+        all_topics.update(a['topics'])
 
     topics = sorted(all_topics)
-    years = sorted(set(a['year'] for a in articles if a['year']), reverse=True)
-    audiences = sorted(set(a['audience'] for a in articles if a['audience']))
 
     return {
         'articles': articles,
         'filters': {
             'topics': topics,
-            'years': years,
-            'audiences': audiences,
         },
         'stats': {
             'total': len(articles),
-            'year_range': f"{min(years)}-{max(years)}",
             'topic_count': len(topics),
         },
     }

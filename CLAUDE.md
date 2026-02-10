@@ -12,7 +12,7 @@ This is a static website serving as a local archive for CSWEP (Committee on the 
 
 - **cswep_news_master.xlsx**: Single source of truth with two sheets:
   - `Issues` (166 rows): issue name, year, focus_topic, editor, url
-  - `Articles` (477 rows): title, author, issue, year, topics, topic, audience, url, source
+  - `Articles` (477 rows): title, author, issue, year, topics, url, source
 - **build_site.py**: Build script that reads the master spreadsheet and generates both `index.html` and `articles.json`
 - **template.html**: HTML template with `<!-- NEWSLETTER_CONTENT -->`, `{{MIN_YEAR}}`, and `{{MAX_YEAR}}` placeholders
 - **index.html**: Generated output -- do not hand-edit newsletter data (regenerate with build script)
@@ -65,12 +65,11 @@ Then run `python build_site.py`.
 
 Add new rows to the `Articles` sheet in `cswep_news_master.xlsx`:
 
-| title | author | issue | year | topics | topic | audience | url | source |
-|-------|--------|-------|------|--------|-------|----------|-----|--------|
-| Article Title | Author Name | Issue I 2026 | 2026 | Topic1, Topic2 | Topic1, Topic2 | | https://... | scraped |
+| title | author | issue | year | topics | url | source |
+|-------|--------|-------|------|--------|-----|--------|
+| Article Title | Author Name | Issue I 2026 | 2026 | Topic1, Topic2 | https://... | scraped |
 
 - The `topics` column is a comma-separated list of all topics for the article (issue focus topic + article-specific topics)
-- The `topic` column mirrors `topics` (kept for compatibility)
 - Set `source` to `scraped` for manually added articles
 - Then run `python build_site.py`
 
